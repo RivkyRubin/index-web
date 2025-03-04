@@ -1,0 +1,63 @@
+<div>
+  <div class="first-section text-center">
+    <div>Logo</div>
+    <h1>כל העסקים במקום אחד</h1>
+    <h2>האינדקס המוביל לציבור החרדי</h2>
+    <input
+      type="button"
+      class="btn btn-primary mt-3 btn-lg"
+      value="מצא בקלות"
+    />
+
+    <input
+      type="button"
+      (click)="navigateToB()"
+      class="btn btn-primary mt-3 btn-lg"
+      value="בעל עסק? לחץ כאן"
+    />
+  </div>
+  <div class="second-section">
+    <div class="container-md">
+      <div style="background-color: white;">
+        <app-categories-box [categories]="categories.value()"></app-categories-box>
+        <!-- <input (input)="search($event)" placeholder="Search categories..." />
+        <ul>
+          @let error = categories.error(); @if (error) {
+          <p>{{ error }}</p>
+          } @if (categories.isLoading()) {
+          <p>Loading Users...</p>
+          } @for (category of categories.value(); track category.id) {
+          <li>{{ category.id }} {{ category.name }}</li>
+          } @empty {
+          <p>No Categories!</p>
+          }
+        </ul> -->
+      </div>
+      <div class="text-center">
+        <h2 class="color7">עסקים מובילים</h2>
+      </div>
+      <div class="row">
+        @for (item of bs(); track item.id) {
+        <div class="col-sm-4">
+          <app-b-post [b]="item"></app-b-post>
+        </div>
+        } @empty {
+        <li>There are no items.</li>
+        }
+      </div>
+    </div>
+  </div>
+</div>
+<div class="gallery-section">
+  <div class="container-md text-center">
+    <div class="d-flex flex-row flex-wrap justify-content-center">
+      @for (item of galleryItems(); track item.name) {
+      <div>
+        <app-gallery-item [item]="item"></app-gallery-item>
+      </div>
+      } @empty {
+      <li>There are no items.</li>
+      }
+    </div>
+  </div>
+</div>

@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+
+html {
+  @include mat.theme((
+    color: (
+      theme-type: light,
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+    typography: Roboto,
+    density: 0,
+  ));
+}/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+ }
+
+
+
+:root {
+
+  --color1: #141730;
+  --color2: #313155;
+  --color3: #bca078;
+  --color4: #eae2d9;
+  --color5:#430516;
+  --color6: #7a183d;
+  --color7: #fff;
+  --color8: #000000;
+
+  --bs-body-bg:#ececec !important;
+}
+
+.color7{
+  color:var(--color7);
+}
+@font-face {
+  font-family: "TelAviv";
+  src: local("TelAviv"),
+    url(/fonts/TelAviv/TelAviv-BrutalistRegular.ttf) format("truetype");
+  font-weight: 400;
+  unicode-range: U+0590-05FF; /* Hebrew characters */
+}
+
+
+@font-face {
+  font-family: "TelAviv";
+  src: local("TelAviv"),
+    url(/fonts/TelAviv/TelAviv-BrutalistRegular.ttf) format("truetype");
+  font-weight: 400;
+  unicode-range: U+0590-05FF; /* Hebrew characters */
+}
+
+@font-face {
+  font-family: "IBMPlexSansHebrew";
+  src: local("IBMPlexSansHebrew"),
+    url(/fonts/IBM_Plex_Sans_Hebrew/IBMPlexSansHebrew-Medium.ttf)
+      format("truetype");
+  unicode-range: U+0000-007F; /* Basic Latin characters */
+}
+*{
+  font-family: "IBMPlexSansHebrew", "TelAviv", sans-serif !important;
+}
