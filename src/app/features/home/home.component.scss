@@ -1,0 +1,38 @@
+.first-section{
+    position:relative; 
+       background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7) ), url('https://upload.wikimedia.org/wikipedia/commons/8/86/Jerusalem_Mea_Shearim_Kikar_HaShabbat.JPG');
+
+    // background-image:url('https://upload.wikimedia.org/wikipedia/commons/8/86/Jerusalem_Mea_Shearim_Kikar_HaShabbat.JPG');
+height: 40vh;background-position: center center;
+background-size: cover;
+padding:5rem 15px;
+*{
+    color:#fff;
+}
+h1{
+    font-size: 4rem;
+}
+.btn-primary{
+    background-color:#fff;
+    border-radius: 0px;
+    color:var(--color1);
+    border:none;
+}
+}
+
+.second-section{
+    position:relative;
+    padding:3rem;
+    &::before{
+        position:absolute;
+        top:0px;
+        left:0px;
+        content:'';
+        width:100%;
+        height:30vh;   
+         background-color:var(--color5);
+z-index: -1
+    }
+
+   
+}

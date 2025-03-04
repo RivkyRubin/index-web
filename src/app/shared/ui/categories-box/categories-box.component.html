@@ -1,0 +1,14 @@
+<div class="categories-box">
+  <div
+    *ngFor="let category of positionedCategories"
+    class="category"
+    (click)="navigateToCategory(category.id)"
+    [ngClass]="'size-' + (category.size || 1)"
+    [ngStyle]="{ left: category.left + '%', top: category.top + '%' }"
+  >
+    <span class="category-name">{{ category.value }}</span>
+    <div class="category-image">
+      <img src="icons/categories/{{category.name}}.svg" />
+    </div>
+  </div>
+</div>

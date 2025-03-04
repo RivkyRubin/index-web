@@ -1,0 +1,125 @@
+.categories-box {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.category {
+  position: absolute;
+  color: gray;
+  padding: 5px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    //transform: scale(1.05);
+    transform: translateY(-3px);
+    cursor: pointer;
+    color: black;
+    .category-image {
+      opacity: 1 !important;
+    }
+    .category-name {
+      opacity: 0 !important;
+    }
+  }
+  .category-name {
+    opacity: 0; // Initially hidden
+    transition: all 0.3s ease-in-out;
+    animation: showCategoryName 0.3s ease-in-out forwards;
+  }
+  
+  .category-image {
+    position: absolute;
+    top: 10%;
+    opacity: 1; // Initially visible
+    transition: all 0.3s ease-in-out;
+    animation: hideCategoryImage 0.3s ease-in-out forwards;
+  
+    img {
+      width: 50px;
+    }
+  }
+
+   // Set different delays for every third item
+   &:nth-child(3n + 1) {
+    .category-name {
+      animation-delay: 2s;
+    }
+    .category-image {
+      animation-delay: 2s;
+    }
+  }
+
+  &:nth-child(3n + 2) {
+    .category-name {
+      animation-delay: 1.5s;
+    }
+    .category-image {
+      animation-delay: 1.5s;
+    }
+  }
+
+  &:nth-child(3n + 3) {
+    .category-name {
+      animation-delay: 1s;
+    }
+    .category-image {
+      animation-delay: 1s;
+    }
+  }
+  
+  // Animations
+  @keyframes showCategoryName {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes hideCategoryImage {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+}
+
+.size-1 {
+  font-size: 18px;
+  padding: 8px;
+  img{
+    width:50px !important;
+  }
+}
+
+.size-2 {
+  font-size: 24px;
+  padding: 12px;
+  img{
+    width:70px !important;
+  }
+}
+
+.size-3 {
+  font-size: 28px;
+  padding: 16px;
+   img{
+    width:85px !important;
+  }
+}
+
+.size-4 {
+  font-size: 34px;
+  padding: 20px;
+  img{
+    width:100px !important;
+  }
+}
