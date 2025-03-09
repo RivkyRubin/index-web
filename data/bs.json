@@ -1,18 +1,20 @@
 [
   {
     "id": 1,
-    "name": "מלאנג'",
-    "description": "בגדי ילדים באיכות מעולה",
-    "categories": ["בגדי ילדים"],
+    "name": "hashviger",
+    "value":"השוויגער",
+    "description": "אוכל לשבת",
+    "categories": ["אוכל"],
     "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
     "imgSrc": "https://scontent.ftlv19-1.fna.fbcdn.net/v/t1.6435-9/151530774_3527897410655304_191568329395846382_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=SHWVeT3frNoQ7kNvgHi5XDu&_nc_oc=AdjRup2XVTBktB-L7q6y-M1d54H-FMuuEo-11NZzULFYBkgBBNMmPNNEgoVbrH1EfWL-fkyoKIWd3KxcKuZLwna6&_nc_zt=23&_nc_ht=scontent.ftlv19-1.fna&_nc_gid=AT97-prSnnwA5NKpnQK5toa&oh=00_AYDQk9pacv4Wq-Gntmn_Ncw2Vs3cvf5ghSj5yywCGCxj9w&oe=67D94CBA",
     "color": "322133"
   },
   {
     "id": 2,
-    "name": "פאפיה",
-    "description": "נעלי ילדים לכל הגילאים",
-    "categories": ["נעלי ילדים"],
+    "name": "leader",
+    "value":"לידר",
+    "description": "בגדי ילדים",
+    "categories": ["בגדי ילדים"],
     "categoryId": 3,
     "logoSrc": "https://www.clicko.co.il/wp-content/uploads/2023/04/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA-%D7%A4%D7%A4%D7%90%D7%99%D7%94-768x768.jpg",
     "imgSrc": "https://www.babymania-il.com/cdn/shop/files/S7d58ccbe50ff439fbbb4fe41794712c23_800x.webp?v=1723983893",
@@ -20,39 +22,13 @@
   },
   {
     "id": 3,
-    "name": "מלאנג'",
-    "description": "בגדי ילדים באיכות מעולה",
-    "categories": ["בגדי ילדים"],
+    "name": "icelek",
+    "value":"אייסלק",
+    "description": "גלידות וכל מה שמתוק",
+    "categories": ["ממתקים"],
     "categoryId": 6,
     "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
     "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
     "color": "FF5733"
-  },
-  {
-    "id": 4,
-    "name": "פאפיה",
-    "description": "נעלי ילדים לכל הגילאים",
-    "categories": ["נעלי ילדים"],
-    "logoSrc": "https://www.clicko.co.il/wp-content/uploads/2023/04/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA-%D7%A4%D7%A4%D7%90%D7%99%D7%94-768x768.jpg",
-    "imgSrc": "https://www.babymania-il.com/cdn/shop/files/S7d58ccbe50ff439fbbb4fe41794712c23_800x.webp?v=1723983893",
-    "color": "6A0572"
-  },
-  {
-    "id": 5,
-    "name": "מלאנג'",
-    "description": "בגדי ילדים באיכות מעולה",
-    "categories": ["בגדי ילדים"],
-    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
-    "imgSrc": "https://scontent.ftlv19-1.fna.fbcdn.net/v/t1.6435-9/151530774_3527897410655304_191568329395846382_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=SHWVeT3frNoQ7kNvgHi5XDu&_nc_oc=AdjRup2XVTBktB-L7q6y-M1d54H-FMuuEo-11NZzULFYBkgBBNMmPNNEgoVbrH1EfWL-fkyoKIWd3KxcKuZLwna6&_nc_zt=23&_nc_ht=scontent.ftlv19-1.fna&_nc_gid=AT97-prSnnwA5NKpnQK5toa&oh=00_AYDQk9pacv4Wq-Gntmn_Ncw2Vs3cvf5ghSj5yywCGCxj9w&oe=67D94CBA",
-    "color": "D72638"
-  },
-  {
-    "id": 6,
-    "name": "פאפיה",
-    "description": "נעלי ילדים לכל הגילאים",
-    "categories": ["נעלי ילדים"],
-    "logoSrc": "https://www.clicko.co.il/wp-content/uploads/2023/04/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA-%D7%A4%D7%A4%D7%90%D7%99%D7%94-768x768.jpg",
-    "imgSrc": "https://www.babymania-il.com/cdn/shop/files/S7d58ccbe50ff439fbbb4fe41794712c23_800x.webp?v=1723983893",
-    "color": "F4A261"
   }
 ]
