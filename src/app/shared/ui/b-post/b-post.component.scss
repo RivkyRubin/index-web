@@ -3,6 +3,12 @@
     padding-bottom:2rem;
     text-align: center;
     margin-bottom:1rem;
+    box-shadow: 0 0 10px -5px rgba(23, 45, 81, 0.51);
+    transition:all .3s ease-in;
+    &:hover{
+        background-color: #f3f3f3;
+        transform: translateY(-3px);
+    }
     .main-image{
         // background-image:url('https://scontent.ftlv19-1.fna.fbcdn.net/v/t1.6435-9/151530774_3527897410655304_191568329395846382_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=SHWVeT3frNoQ7kNvgHi5XDu&_nc_oc=AdjRup2XVTBktB-L7q6y-M1d54H-FMuuEo-11NZzULFYBkgBBNMmPNNEgoVbrH1EfWL-fkyoKIWd3KxcKuZLwna6&_nc_zt=23&_nc_ht=scontent.ftlv19-1.fna&_nc_gid=AT97-prSnnwA5NKpnQK5toa&oh=00_AYDQk9pacv4Wq-Gntmn_Ncw2Vs3cvf5ghSj5yywCGCxj9w&oe=67D94CBA');
         width:100%;
@@ -10,7 +16,6 @@
         height: 250px;
         background-repeat: no-repeat;
         background-position: center center;
-        clip-path: polygon(50% 0%, 100% 0, 100% 86%, 0 100%, 0 0);
         transition:all .3s;
     }
     .logo{
@@ -20,20 +25,13 @@
                     height: 100px;
         background-repeat: no-repeat;
         background-position: center center;   
-         transform: translateY(-35px);
+        // background-color: #eaeaea;
+        border-bottom:1px solid #e4e4e4;
     }
     .category{
         text-align: center;
         color:var(--color3);
         font-size:small;
         text-decoration: underline;
-    }
-
-    &:hover{
-        .main-image{
-                    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0 0);
-
-        }
-
     }
 }

@@ -1,13 +1,13 @@
 [{
     "id":1,
-    "name":"shoes",
+    "name":"shoes1",
    "value":"נעליים",
    "parentId":null 
 },
 {
     "id":2,
-    "name":"bakery",
-   "value":"נעלי נשים",
+    "name":"bakery1",
+   "value":"מאפיות",
    "parentId":1,
    "size":"2" 
 },
@@ -20,7 +20,7 @@
 {
     "id":4,
     "name":"photo",
-    "value":"ביגוד",
+    "value":"צילום והדפסה",
    "parentId":null ,
    "size":3
 },
@@ -33,19 +33,39 @@
 {
     "id":6,
     "name":"pacifier",
-    "value":"נעלי ילדים",
+    "value":"מוצרי תינוקות",
    "parentId":1,
    "size":"2" 
 },
 {
     "id":7,
     "name":"makeup",
-    "value":"סופר"},
+    "value":"איפור וקוסמטיקה"},
 {
     "id":8,
     "name":"pizza",
-    "value":"פארם",
+    "value":"פיצה",
    "parentId":null ,
    "size":3
+},
+{
+    "id":9,
+    "name":"furniture1",
+    "value":"ריהוט",
+   "parentId":null ,
+   "size":3
+},{
+    "id":10,
+    "name":"gift1",
+    "value":"מתנות",
+   "parentId":null ,
+   "size":3
+},
+{
+    "id":11,
+    "name":"office",
+    "value":"משרד ומחשבים",
+   "parentId":null ,
+   "size":1
 }
 ]

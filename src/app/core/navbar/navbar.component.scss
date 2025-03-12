@@ -1,0 +1,25 @@
+.navbar{
+    li{
+        a{
+            font-size: 1.5rem;
+            &.is-active{
+                color:var(--color1) !important;
+            }
+        }
+    }
+}
+
+.absolute-navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1;  
+      background-color: transparent !important;
+      a{
+        color:var(--color7) !important;
+&:hover{
+    color:var(--color1) !important;
+}
+      }
+  }

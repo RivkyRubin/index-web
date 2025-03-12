@@ -3,8 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  token:'escape room example'
+  production: false,  
+   imagesUrl:'file:///C:/Users/HP/Documents/ramad/images/b/',
+   filesUrl:''
 };
 
 /*

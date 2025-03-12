@@ -1,0 +1,155 @@
+/* Flipbook container */
+#flipbookWrapper {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light background */
+    overflow: hidden;
+  }
+  
+  /* The book container */
+  #book {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    transform-origin: center;
+  }
+  
+  /* Default page styles */
+  .my-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    user-select: none;
+padding:10px;
+  }
+  
+  /* Cover pages */
+  .my-page[data-density="hard"] {
+    background-color: #ddd;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid #aaa;
+  }
+  
+  /* Adding a realistic page flip effect */
+  .my-page:not([data-density="hard"]) {
+    background: linear-gradient(90deg, #fff 0%, #f8f8f8 100%);
+  }
+  
+  /* Shadow effect for flipping pages */
+  .stf__shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .item{
+    background-size:contain;
+    background-position: center;
+    position:relative;
+    background-repeat: no-repeat;
+    .link{
+        position:absolute;
+        bottom:10px;
+        left:10px;
+    }
+  }
+  
+  .stepper{
+    column-gap: 10px;
+    justify-content: center;
+    margin-top:30px;
+  .step{
+    width: 40px;
+    height: 10px;
+    background-color: #d1d1d1;
+    &:hover{
+        background-color: #b1b0b0;
+        cursor: pointer;
+    }
+  }
+}
+  /* Responsive styles */
+  @media (max-width: 1400px) {
+    #book {
+      width: 300px;
+      height: 450px;
+    }
+  
+    .my-page {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #book {
+      width: 300px;
+      height: 450px;
+    }
+  
+    .my-page {
+      font-size: 18px;
+    }
+  }
+  
+  
+  .page {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for halves & quarters */
+    grid-template-rows: repeat(2, 1fr); /* Two rows for halves & quarters */
+    gap: 10px;
+    .link{
+      position:absolute;
+      bottom:10px;
+      right:10px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  
+  /* Full page item spans the entire grid */
+  .Full {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* HalfWidth spans half the width, full height */
+  .HalfWidth {
+    grid-column: span 1;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* HalfHeight spans full width, half height */
+  .HalfHeight {
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Quarter spans half width and half height */
+  .Quarter {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+  }
+  

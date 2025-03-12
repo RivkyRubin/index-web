@@ -1,0 +1,27 @@
+<div #flipbookWrapper >
+
+  <div #bookContainer id="book" [ngClass]="{'book-zoom':isZoom()}">
+    <div class="my-page" data-density="hard">RAMA D</div>
+    <div class="my-page" *ngFor="let page of pages()">
+    <div class="page">
+      <div *ngFor="let item of page.items" [ngClass]="item.size">
+        <div
+        class="h-100 w-100 item"
+        [ngStyle]="{'background-image': 'url(' +  imagesUrl() + item.b?.name+  '/'+item.imageName}" 
+      >
+      
+      <a (click)="navigateToB(item.b!.id)" class="link">לדף העסק</a>
+    </div>      </div>
+    </div>
+    </div>
+    <div class="my-page" data-density="hard">Last Page</div>
+  </div>
+</div>
+<div class="d-flex flex-row stepper text-center">
+  <div class="step" (click)="stepTo(1)"></div>
+  <div class="step" (click)="stepTo(2)"></div>
+  <div class="step" (click)="stepTo(3)"></div>
+</div>
+<button id="nextBtn" (click)="next()">הקודם</button>
+<button id="prevBtn" (click)="back()">הבא</button>
+<input type="button" value="מסך מלא" (click)="zoom()"/>

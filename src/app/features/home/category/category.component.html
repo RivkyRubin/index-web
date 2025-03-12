@@ -1,10 +1,31 @@
-<div class="container text-center category-page">
+<div class="container text-center category-page ">
     <div *ngIf="category()">
 <div class="category-image">
-      <img src="icons/categories/{{category()?.name}}.svg" />
+      <img src="icons/categories/{{category()?.name}}.svg" />    <h2 class="category-name mb-3 pb-3">{{ category()?.value }}</h2>
+
     </div>
-    <h2 class="category-name">{{ category()?.value }}</h2>
     
 </div>
 
+<!-- @if (bs.isLoading()) {
+    <p>טוען...</p>
+    }
+  <div class="row">
+    @for (item of bs.value(); track item.id) {
+    <div class="col-sm-4">
+      <app-b-post [b]="item"></app-b-post>
+    </div>
+    } @empty {
+    <li>There are no items.</li>
+    }
+  </div> -->
+  <div class="row">
+  @for (item of bs(); track item.id) {
+    <div class="col-sm-4">
+      <app-b-post [b]="item"></app-b-post>
+    </div>
+    } @empty {
+    <span>אין נתונים להצגה</span>
+    }
+  </div>
 </div>

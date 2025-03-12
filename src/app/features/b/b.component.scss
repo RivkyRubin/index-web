@@ -1,0 +1,39 @@
+.item{
+    padding-bottom:2rem;
+    text-align: center;
+    margin-bottom:1rem;
+    .item-content{
+        height: 60vh;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -167px;
+    box-shadow: 0 0 32px -5px rgba(23, 45, 81, .51);
+    }
+    &:hover{
+    }
+    .main-image{
+        width:100%;
+        background-size: cover;
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition:all .3s;
+    }
+    .logo{
+        // background-image:url('https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png');
+        width:100%;
+        background-size: auto 50px;
+                    height: 100px;
+        background-repeat: no-repeat;
+        background-position: center center;   
+        // background-color: #eaeaea;
+        border-bottom:1px solid #e4e4e4;
+    }
+    .category{
+        text-align: center;
+        color:var(--color3);
+        font-size:small;
+        text-decoration: underline;
+    }
+}

@@ -1,16 +1,20 @@
 @if(b())
 {
 <div class="item w-100">
-    <div class="main-image" [ngStyle]="{'background-image': 'url(' + b()?.imgSrc + ')'}" ></div>
-    <div class="logo" [ngStyle]="{'background-image': 'url(' + b()?.logoSrc + ')'}"></div>
-    <div class="category">
+    <!-- <div class="main-image" [ngStyle]="{'background-image': 'url(' +  imagesUrl() + b()!.name+  '/image.jpg)'}" ></div> -->
+    <!-- <div class="logo" [ngStyle]="{'background-image': 'url(' +  imagesUrl() + b()!.name+  '/logo.png)'}" ></div> -->
+   <div style="height: 300px; width:300px;" [ngStyle]="{'background-image': 'url(file:///C:/Users/HP/Downloads/lo.jpg)'}"></div>
+    <div class="b-details pt-3">
+    <h3 class="name">{{b()?.value}}</h3>
+    <!-- <div class="category">
       <span>{{b()!.categories[0]}}</span>
-    </div>
+    </div> -->
     <div class="details">
       <span> {{b()!.description}} </span>
     </div>
     <div class="text-center">
-      <input type="button" class="btn btn-link" value="פרטי העסק" />
+      <input type="button" class="btn btn-link color1" value="פרטי העסק" (click)="navigateToB(b()!.id)" />
     </div>
+  </div>
   </div>
 }

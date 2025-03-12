@@ -1,0 +1,42 @@
+.first-section {
+    position: relative;
+    // height: 40vh;
+    padding: 5rem 15px;
+    background-size: cover; /* Ensures full width */
+    background-position: center center; /* Centers the image */
+    // background-attachment: fixed; /* Enables parallax effect */
+    background-repeat: no-repeat;
+    width: 100vw;
+    * {
+      color: #fff;
+    }
+    .logo {
+      font-size: 3rem;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    
+    .btn-primary {
+      background-color: #fff;
+      border-radius: 0px;
+      color: var(--color1);
+      border: none;
+      margin-top: 5rem;
+    }
+  }
+
+
+  .second-section{
+    height: 50vh;
+    text-align: center;
+  }
+  ::ng-deep{
+    .navbar{
+        display: none;
+    }
+  }
+
+  .soon{
+    font-size: 7rem;
+  }

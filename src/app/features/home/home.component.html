@@ -1,49 +1,63 @@
 <div>
-  <div class="first-section text-center">
-    <div>Logo</div>
-    <h1>כל העסקים במקום אחד</h1>
-    <h2>האינדקס המוביל לציבור החרדי</h2>
+  <div class="first-section text-center" 
+  [ngStyle]="{ 
+    'background-image': 'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(\'images/home.jpg\')'  }"
+  > 
+    <div class="logo">רמהד'</div>
+    <h1>כל השכונה במקום אחד</h1>
+    <h2>עסקים, נדל"ן, ועוד </h2>
     <input
       type="button"
-      class="btn btn-primary mt-3 btn-lg"
+      class="btn btn-primary  btn-lg"
       value="מצא בקלות"
     />
 
-    <input
+    <!-- <input
       type="button"
       (click)="navigateToB()"
       class="btn btn-primary mt-3 btn-lg"
       value="בעל עסק? לחץ כאן"
-    />
+    /> -->
   </div>
   <div class="second-section">
     <div class="container-md">
-      <div style="background-color: white;">
-        <app-categories-box [categories]="categories.value()"></app-categories-box>
-        <!-- <input (input)="search($event)" placeholder="Search categories..." />
-        <ul>
-          @let error = categories.error(); @if (error) {
-          <p>{{ error }}</p>
-          } @if (categories.isLoading()) {
-          <p>Loading Users...</p>
-          } @for (category of categories.value(); track category.id) {
-          <li>{{ category.id }} {{ category.name }}</li>
-          } @empty {
-          <p>No Categories!</p>
-          }
-        </ul> -->
-      </div>
-      <div class="text-center">
-        <h2 class="color7">עסקים מובילים</h2>
-      </div>
       <div class="row">
-        @for (item of bs(); track item.id) {
-        <div class="col-sm-4">
-          <app-b-post [b]="item"></app-b-post>
+        <div class="col-sm-3">
+          <div class="categories-section">
+            <div class="">
+            @if (categories.isLoading()) {
+              <p>טוען...</p>
+              }
+              @for (item of categories.value(); track item.id) {
+              <div class="category-item d-flex  align-items-center mt-1">
+                <img src="icons/categories/{{item.name}}.svg" width="30" style="margin-left:15px" />
+                <span style="font-size: 22px;">{{item.value}}</span>
+              </div>
+              } @empty {
+              <li>There are no items.</li>
+              }
+         </div>
+       
+          <app-categories-box [categories]="categories.value()"></app-categories-box>
+        </div>  
+       </div>
+        <div class="col-sm-9">
+          @if (bs.isLoading()) {
+            <p>טוען...</p>
+            }
+          <div class="row">
+            @for (item of bs.value(); track item.id) {
+            <div class="col-sm-4">
+              <app-b-post [b]="item"></app-b-post>
+            </div>
+            } @empty {
+            <li>There are no items.</li>
+            }
+          </div>
+          <div class="text-center">
+            <input type="button" class="btn btn-primary" value="עסקים נוספים"/>
+          </div>
         </div>
-        } @empty {
-        <li>There are no items.</li>
-        }
       </div>
     </div>
   </div>

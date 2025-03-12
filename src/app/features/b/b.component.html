@@ -1,0 +1,24 @@
+<div class="container-md">
+
+
+@if(b())
+{
+<div class="item w-100">
+  <div class="main-image" [ngStyle]="{'background-image': 'url(' +  imagesUrl() + b()!.name+  '/big.jpg)'}" ></div>
+
+    <div class="item-content move-up">
+      <div class="logo" [ngStyle]="{'background-image': 'url(' +  imagesUrl() + b()!.name+  '/logo.png)'}" ></div>
+    
+    <div class="b-details pt-3">
+    <h3 class="name">{{b()?.value}}</h3>
+    <!-- <div class="category">
+      <span>{{b()!.categories[0]}}</span>
+    </div> -->
+    <div class="details">
+      <span> {{b()!.description}} </span>
+    </div>
+</div>
+  </div>
+  </div>
+}
+</div>

@@ -1,10 +1,11 @@
 .categories-box {
   position: relative;
   width: 100%;
-  height: 300px;
-  background: #f0f0f0;
-  border: 1px solid #ccc;
-  overflow: hidden;
+  height: 100%;
+  border: 1px solid #d8d8d8; 
+    overflow: hidden;
+    box-shadow: 0 0 10px -5px rgba(23, 45, 81, 0.51);
+    background-color: #fff;
 }
 
 .category {
@@ -16,11 +17,13 @@
 
   &:hover {
     //transform: scale(1.05);
-    transform: translateY(-3px);
+    //transform: translateY(-3px);
     cursor: pointer;
     color: black;
     .category-image {
       opacity: 1 !important;
+      transform: scale(1) !important;
+      //animation:none;
     }
     .category-name {
       opacity: 0 !important;
@@ -35,10 +38,11 @@
   .category-image {
     position: absolute;
     top: 10%;
+    transform:scale(1);
     opacity: 1; // Initially visible
     transition: all 0.3s ease-in-out;
     animation: hideCategoryImage 0.3s ease-in-out forwards;
-  
+    
     img {
       width: 50px;
     }
@@ -85,9 +89,11 @@
   @keyframes hideCategoryImage {
     from {
       opacity: 1;
+      transform:scale(1);
     }
     to {
       opacity: 0;
+      transform:scale(0.5);
     }
   }
 }
