@@ -30,5 +30,16 @@
     "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
     "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
     "color": "FF5733"
+  },
+  {
+    "id": 4,
+    "name": "freebiz",
+    "value":"FreeBiz",
+    "description": "מגיע לך לחיות",
+    "categories": ["משרד"],
+    "categoryId": 11,
+    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
+    "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
+    "color": "FF5733"
   }
 ]
