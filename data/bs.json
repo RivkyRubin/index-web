@@ -3,43 +3,131 @@
     "id": 1,
     "name": "hashviger",
     "value":"השוויגער",
-    "description": "אוכל לשבת",
+    "slogan": "מעדני דג ושבת",
+    "description": "מבחר סלטים. דגים מעושנים. דגים מלוחים.\nסלטי דג משובחים. טשולענט. כבד. קוגלים.\nוכל סוגי הפינוקים לשבת וחג.",
     "categories": ["אוכל"],
     "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
     "imgSrc": "https://scontent.ftlv19-1.fna.fbcdn.net/v/t1.6435-9/151530774_3527897410655304_191568329395846382_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=SHWVeT3frNoQ7kNvgHi5XDu&_nc_oc=AdjRup2XVTBktB-L7q6y-M1d54H-FMuuEo-11NZzULFYBkgBBNMmPNNEgoVbrH1EfWL-fkyoKIWd3KxcKuZLwna6&_nc_zt=23&_nc_ht=scontent.ftlv19-1.fna&_nc_gid=AT97-prSnnwA5NKpnQK5toa&oh=00_AYDQk9pacv4Wq-Gntmn_Ncw2Vs3cvf5ghSj5yywCGCxj9w&oe=67D94CBA",
-    "color": "322133"
+    "color": "322133",
+    "address":"שדרות האמוראים 69",
+    "hours":[{
+    "day":"חמישי",
+    "from":"12:00",
+    "to":"02:00",
+    "phone":"02-5859997",
+    "phone2":"055-9281543"
+    },
+    {
+      "day":"שישי",
+      "from":"08:00",
+      "to":"15:30"
+      }]
   },
   {
     "id": 2,
     "name": "leader",
     "value":"לידר",
-    "description": "בגדי ילדים",
+    "slogan": "ביגוד והנעלה לילדים",
+    "description":"רשת לידר היא רשת החנויות המובילה לביגוד והנעלת ילדים במגזר הדתי-חרדי וגם בציבור הרחב.",
     "categories": ["בגדי ילדים"],
     "categoryId": 3,
     "logoSrc": "https://www.clicko.co.il/wp-content/uploads/2023/04/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA-%D7%A4%D7%A4%D7%90%D7%99%D7%94-768x768.jpg",
     "imgSrc": "https://www.babymania-il.com/cdn/shop/files/S7d58ccbe50ff439fbbb4fe41794712c23_800x.webp?v=1723983893",
-    "color": "1F8A70"
+    "color": "1F8A70",
+    "address":"שדרות האמוראים 9",
+    "hours":[{
+    "day":"ראשון - חמישי",
+    "from":"10:00",
+    "to":"21:00"
+    },
+    {
+      "day":"שישי",
+      "from":"09:00",
+      "to":"13:00"
+      }],
+      "whatsapp":"029920000",
+      "phone":"1599-54-55-56",
+      "website":"https://leaderkids.co.il"
   },
   {
     "id": 3,
     "name": "icelek",
     "value":"אייסלק",
-    "description": "גלידות וכל מה שמתוק",
+    "slogan": "מגיע לך רגע לעצמך",
+    "description": "מגוון רחב של ארטיקים, גלידות וכל מה שמתוק. \n בינינו, מגיע לך רגע לעצמך, להתפנק.",
     "categories": ["ממתקים"],
     "categoryId": 6,
     "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
     "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
-    "color": "FF5733"
-  },
+    "color": "FF5733",
+    "address":"שדרות האמוראים 33",
+    "hours":[{
+    "day":"ראשון - חמישי",
+    "from":"12:00",
+    "to":"22:00"
+    },
+    {
+      "day":"שישי",
+      "from":"10:00",
+      "to":"16:00"
+      }],
+      "phone":"055-777-2126",
+      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.448625887631!2d34.967690558589055!3d31.70363797423842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502c3cf7ab4f63d%3A0x1bae17f17d69faf9!2z16nXk9eo15XXqiDXlNeQ157Xldeo15DXmdedIDMzLCDXkdeZ16og16nXntep!5e0!3m2!1siw!2sil!4v1742288265737!5m2!1siw!2sil\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+    },
+    {
+      "id": 4,
+      "name": "hodayaabuchazeira",
+      "value":"הודיה אבוחצירא",
+      "slogan": "מאסטרית באיפור וסירוק כלות",
+      "description": "אני הודיה אביחצירא,\nמאסטרית באיפור וסירוק,\nמגשימה חלומות לכלות\nועוזרת להן להיראות\nיפות ומושלמות\nבדיוק כמו שהן אוהבות,\nעם איפור ותסרוקת\nעמידים לאורך כל היום.\n\nהקסם הזה קורה\nבאמצעות שיטה ייחודית שפיתחתי,\nשמשלבת את הטעם האישי של הכלה,\nיחס אישי, התאמה מדויקת\nלסגנון ולמבנה הפנים,\nמקצוענות מוכחת וטאצ' עדכני.",    "categories": ["פאנית"],
+      "categoryId": 7,
+      "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
+      "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
+      "color": "FF5733",
+      "phone":"054-852-0933",
+      "email":"ha0548520933@gmail.com",
+      "website":"https://hodayaa.co.il"
+    },
+ 
   {
-    "id": 4,
-    "name": "freebiz",
-    "value":"FreeBiz",
-    "description": "מגיע לך לחיות",
+    "id": 5,
+    "name": "efratelmekies",
+    "value":"אפרת אלמקייס",
+    "slogan": "רואת חשבון",
     "categories": ["משרד"],
     "categoryId": 11,
     "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
     "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
-    "color": "FF5733"
-  }
+    "color": "FF5733",
+    "phone":"054-844-7124",
+    "email":"cpa395577@gmail.com",
+    "address":"רב אשי 4"
+  },
+  {
+    "id": 6,
+    "name": "rutifriedman",
+    "value":"רותי פרידמן",
+    "slogan": "פאנית",
+    "categories": ["פאנית"],
+    "categoryId": 15,
+    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
+    "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
+    "color": "FF5733",
+    "phone":"058-7277-663",
+    "address":"אביי 34"
+  },
+  {
+    "id": 7,
+    "name": "freebiz",
+    "value":"FreeBiz",
+    "slogan": "מגיע לך לחיות",
+    "categories": ["משרד"],
+    "categoryId": 11,
+    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
+    "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
+    "color": "FF5733",
+    "address":"שדרות האמוראים 23",
+    "phone":"053-437-5771",
+    "email":"mvip0527141077@gmail.com"
+  }  
 ]

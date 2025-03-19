@@ -1,12 +1,14 @@
-[{
+[
+{
     "id":1,
-    "name":"shoes1",
-   "value":"נעליים",
-   "parentId":null 
+    "name":"all",
+   "value":"הכל",
+   "parentId":1,
+   "size":"2" 
 },
 {
     "id":2,
-    "name":"bakery1",
+    "name":"bakery",
    "value":"מאפיות",
    "parentId":1,
    "size":"2" 
@@ -50,14 +52,14 @@
 },
 {
     "id":9,
-    "name":"furniture1",
+    "name":"forniture",
     "value":"ריהוט",
    "parentId":null ,
    "size":3
 },{
     "id":10,
-    "name":"gift1",
-    "value":"מתנות",
+    "name":"book",
+    "value":"ספרים",
    "parentId":null ,
    "size":3
 },
@@ -67,5 +69,31 @@
     "value":"משרד ומחשבים",
    "parentId":null ,
    "size":1
+},
+{
+    "id":12,
+    "name":"toys",
+    "value":"משחקים ומכשירי כתיבה",
+   "parentId":null ,
+   "size":3
+},
+{
+    "id":13,
+    "name":"jewlery",
+    "value":"תכשיטים ושעונים",
+   "parentId":null ,
+   "size":1
+},
+{
+    "id":14,
+    "name":"shoes",
+   "value":"נעליים",
+   "parentId":null 
+},
+{
+    "id":15,
+    "name":"wigs",
+   "value":"פאנית",
+   "parentId":null 
 }
 ]
