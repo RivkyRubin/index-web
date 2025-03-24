@@ -1,99 +1,43 @@
 [
-{
-    "id":1,
-    "name":"all",
-   "value":"הכל",
-   "parentId":1,
-   "size":"2" 
-},
-{
-    "id":2,
-    "name":"bakery",
-   "value":"מאפיות",
-   "parentId":1,
-   "size":"2" 
-},
-{
-    "id":3,
-    "name":"shoes",
-    "value":"נעלי גברים",
-   "parentId":1 
-},
-{
-    "id":4,
-    "name":"photo",
-    "value":"צילום והדפסה",
-   "parentId":null ,
-   "size":3
-},
-{
-    "id":5,
-    "name":"gift",
-    "value":"מתנות",
-   "parentId":null 
-},
-{
-    "id":6,
-    "name":"pacifier",
-    "value":"מוצרי תינוקות",
-   "parentId":1,
-   "size":"2" 
-},
-{
-    "id":7,
-    "name":"makeup",
-    "value":"איפור וקוסמטיקה"},
-{
-    "id":8,
-    "name":"pizza",
-    "value":"פיצה",
-   "parentId":null ,
-   "size":3
-},
-{
-    "id":9,
-    "name":"forniture",
-    "value":"ריהוט",
-   "parentId":null ,
-   "size":3
-},{
-    "id":10,
-    "name":"book",
-    "value":"ספרים",
-   "parentId":null ,
-   "size":3
-},
-{
-    "id":11,
-    "name":"office",
-    "value":"משרד ומחשבים",
-   "parentId":null ,
-   "size":1
-},
-{
-    "id":12,
-    "name":"toys",
-    "value":"משחקים ומכשירי כתיבה",
-   "parentId":null ,
-   "size":3
-},
-{
-    "id":13,
-    "name":"jewlery",
-    "value":"תכשיטים ושעונים",
-   "parentId":null ,
-   "size":1
-},
-{
-    "id":14,
-    "name":"shoes",
-   "value":"נעליים",
-   "parentId":null 
-},
-{
-    "id":15,
-    "name":"wigs",
-   "value":"פאנית",
-   "parentId":null 
-}
+  { "id": 1, "value": "תינוקות", "name": "baby", "size": 3 },
+  { "id": 2, "value": "מאפיה", "name": "bakery", "size": 2 },
+  { "id": 3, "value": "ספרים", "name": "books" },
+  { "id": 4, "value": "משקפיים", "name": "eyeglasses" },
+  { "id": 5, "value": "דגים", "name": "fish" },
+  { "id": 6, "value": "ריהוט", "name": "furniture", "size": 3 },
+  { "id": 7, "value": "מתנות", "name": "gifts", "size": 2 },
+  { "id": 8, "value": "תכשיטים", "name": "jewelry" },
+  { "id": 9, "value": "איפור", "name": "makeup" },
+  { "id": 10, "value": "משרד", "name": "office" },
+  { "id": 11, "value": "פארם", "name": "pharm" },
+  { "id": 12, "value": "צלמים", "name": "photographer" },
+  { "id": 13, "value": "מזון מהיר", "name": "fast food", "size": 3 },
+  { "id": 14, "value": "דפוס", "name": "print" },
+  { "id": 15, "value": "תפירה", "name": "sewing" },
+  { "id": 16, "value": "הנעלה", "name": "shoes", "size": 3 },
+  { "id": 17, "value": "משחקים וכלי כתיבה", "name": "toys", "size": 2 },
+  { "id": 18, "value": "פאניות", "name": "wigs" },
+  { "id": 19, "value": "ביגוד", "name": "cloth", "size": 3 },
+  { "id": 20, "value": "תשמישי קדושה", "name": "kdusha" },
+  { "id": 21, "value": "יינות ופיצוחים", "name": "wine" },
+  { "id": 22, "value": "קיוסק וממתקים", "name": "kiosk", "size": 2 },
+  { "id": 23, "value": "סלולר", "name": "phone" },
+  { "id": 24, "value": "מוצרי חשמל", "name": "electric", "size": 3 },
+  { "id": 25, "value": "ירקן", "name": "greengrocery" },
+  { "id": 26, "value": "קינוחים ועוגות", "name": "dessert" },
+  { "id": 27, "value": "מוצרי אפייה", "name": "baking" },
+  { "id": 28, "value": "בעלי מקצוע", "name": "fixes" },
+  { "id": 29, "value": "פסח", "name": "passover", "size": 3 },
+  { "id": 30, "value": "אוכל", "name": "food", "size": 2 },
+  { "id": 31, "value": "גרביים", "name": "socks", "size": 2 },
+  { "id": 32, "value": "מכולת וסופרמרקט", "name": "super", "size": 3 },
+  { "id": 33, "value": "כושר", "name": "gym" },
+  { "id": 34, "value": "רכב", "name": "car" },
+  { "id": 35, "value": "לבית", "name": "home", "size": 2 },
+  { "id": 36, "value": "אירועים", "name": "events", "size": 1 },
+  { "id": 37, "value": "קוסמטיקה וטיפוח", "name": "cosmetics" },
+  { "id": 38, "value": "חד פעמי", "name": "disposable utensils" },
+  { "id": 39, "value": "אופנת גברים", "name": "men", "size": 2 },
+  { "id": 40, "value": "אופנת נשים", "name": "women", "size": 2 },
+  { "id": 41, "value": "אופנת ילדים", "name": "kids", "size": 2 }
 ]

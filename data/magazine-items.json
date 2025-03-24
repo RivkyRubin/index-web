@@ -8,6 +8,10 @@
     "bId": 6,
     "imageName": "pirsum.jpg",
     "size": "Full"
+  }, {
+    "bId": 6,
+    "imageName": "pirsum.jpg",
+    "size": "Full"
   },
   {
     "bId": 7,
@@ -15,9 +19,9 @@
     "size": "HalfWidth"
   },
   {
-    "bId": 3,
+    "bId": 16,
     "imageName": "pirsum.jpg",
-    "size": "Quarter"
+    "size": "Full"
   },
   {
     "bId": 3,

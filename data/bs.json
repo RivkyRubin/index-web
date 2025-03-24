@@ -2,132 +2,811 @@
   {
     "id": 1,
     "name": "hashviger",
-    "value":"השוויגער",
+    "value": "השוויגער",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      30
+    ],
     "slogan": "מעדני דג ושבת",
     "description": "מבחר סלטים. דגים מעושנים. דגים מלוחים.\nסלטי דג משובחים. טשולענט. כבד. קוגלים.\nוכל סוגי הפינוקים לשבת וחג.",
-    "categories": ["אוכל"],
-    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
-    "imgSrc": "https://scontent.ftlv19-1.fna.fbcdn.net/v/t1.6435-9/151530774_3527897410655304_191568329395846382_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=SHWVeT3frNoQ7kNvgHi5XDu&_nc_oc=AdjRup2XVTBktB-L7q6y-M1d54H-FMuuEo-11NZzULFYBkgBBNMmPNNEgoVbrH1EfWL-fkyoKIWd3KxcKuZLwna6&_nc_zt=23&_nc_ht=scontent.ftlv19-1.fna&_nc_gid=AT97-prSnnwA5NKpnQK5toa&oh=00_AYDQk9pacv4Wq-Gntmn_Ncw2Vs3cvf5ghSj5yywCGCxj9w&oe=67D94CBA",
     "color": "322133",
-    "address":"שדרות האמוראים 69",
-    "hours":[{
-    "day":"חמישי",
-    "from":"12:00",
-    "to":"02:00",
-    "phone":"02-5859997",
-    "phone2":"055-9281543"
-    },
-    {
-      "day":"שישי",
-      "from":"08:00",
-      "to":"15:30"
-      }]
+    "address": "שדרות האמוראים 69",
+    "hours": [
+      {
+        "days": "א-ד",
+        "from": "12:00",
+        "to": "02:00"
+      },
+      {
+        "days": "ו",
+        "from": "08:00",
+        "to": "15:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-5859997",
+    "phone2": "055-9281543",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": true
   },
   {
     "id": 2,
     "name": "leader",
-    "value":"לידר",
+    "value": "לידר",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      19,
+      16
+    ],
     "slogan": "ביגוד והנעלה לילדים",
-    "description":"רשת לידר היא רשת החנויות המובילה לביגוד והנעלת ילדים במגזר הדתי-חרדי וגם בציבור הרחב.",
-    "categories": ["בגדי ילדים"],
-    "categoryId": 3,
-    "logoSrc": "https://www.clicko.co.il/wp-content/uploads/2023/04/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8-%D7%A9%D7%99%D7%A8%D7%95%D7%AA-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA-%D7%A4%D7%A4%D7%90%D7%99%D7%94-768x768.jpg",
-    "imgSrc": "https://www.babymania-il.com/cdn/shop/files/S7d58ccbe50ff439fbbb4fe41794712c23_800x.webp?v=1723983893",
+    "description": "רשת לידר היא רשת החנויות המובילה לביגוד והנעלת ילדים במגזר הדתי-חרדי וגם בציבור הרחב.",
     "color": "1F8A70",
-    "address":"שדרות האמוראים 9",
-    "hours":[{
-    "day":"ראשון - חמישי",
-    "from":"10:00",
-    "to":"21:00"
-    },
-    {
-      "day":"שישי",
-      "from":"09:00",
-      "to":"13:00"
-      }],
-      "whatsapp":"029920000",
-      "phone":"1599-54-55-56",
-      "website":"https://leaderkids.co.il"
+    "address": "שדרות האמוראים 9",
+    "hours": null,
+    "email": "",
+    "phone": "1599-54-55-56",
+    "phone2": "",
+    "whatsapp": "029920000",
+    "website": "https://leaderkids.co.il",
+    "showInHomePage": true
   },
   {
     "id": 3,
     "name": "icelek",
-    "value":"אייסלק",
+    "value": "אייסלק",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      22
+    ],
     "slogan": "מגיע לך רגע לעצמך",
     "description": "מגוון רחב של ארטיקים, גלידות וכל מה שמתוק. \n בינינו, מגיע לך רגע לעצמך, להתפנק.",
-    "categories": ["ממתקים"],
-    "categoryId": 6,
-    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
-    "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
     "color": "FF5733",
-    "address":"שדרות האמוראים 33",
-    "hours":[{
-    "day":"ראשון - חמישי",
-    "from":"12:00",
-    "to":"22:00"
-    },
-    {
-      "day":"שישי",
-      "from":"10:00",
-      "to":"16:00"
-      }],
-      "phone":"055-777-2126",
-      "map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.448625887631!2d34.967690558589055!3d31.70363797423842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502c3cf7ab4f63d%3A0x1bae17f17d69faf9!2z16nXk9eo15XXqiDXlNeQ157Xldeo15DXmdedIDMzLCDXkdeZ16og16nXntep!5e0!3m2!1siw!2sil!4v1742288265737!5m2!1siw!2sil\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
-    },
-    {
-      "id": 4,
-      "name": "hodayaabuchazeira",
-      "value":"הודיה אבוחצירא",
-      "slogan": "מאסטרית באיפור וסירוק כלות",
-      "description": "אני הודיה אביחצירא,\nמאסטרית באיפור וסירוק,\nמגשימה חלומות לכלות\nועוזרת להן להיראות\nיפות ומושלמות\nבדיוק כמו שהן אוהבות,\nעם איפור ותסרוקת\nעמידים לאורך כל היום.\n\nהקסם הזה קורה\nבאמצעות שיטה ייחודית שפיתחתי,\nשמשלבת את הטעם האישי של הכלה,\nיחס אישי, התאמה מדויקת\nלסגנון ולמבנה הפנים,\nמקצוענות מוכחת וטאצ' עדכני.",    "categories": ["פאנית"],
-      "categoryId": 7,
-      "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
-      "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
-      "color": "FF5733",
-      "phone":"054-852-0933",
-      "email":"ha0548520933@gmail.com",
-      "website":"https://hodayaa.co.il"
-    },
- 
+    "address": "שדרות האמוראים 33",
+    "hours": null,
+    "email": "",
+    "phone": "055-777-2126",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": true
+  },
+  {
+    "id": 4,
+    "name": "hodayaabuchazeira",
+    "value": "הודיה אבוחצירא",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      9
+    ],
+    "slogan": "מאסטרית באיפור וסירוק כלות",
+    "description": "אני הודיה אביחצירא,\nמאסטרית באיפור וסירוק,\nמגשימה חלומות לכלות\nועוזרת להן להיראות\nיפות ומושלמות\nבדיוק כמו שהן אוהבות,\nעם איפור ותסרוקת\nעמידים לאורך כל היום.\n\nהקסם הזה קורה\nבאמצעות שיטה ייחודית שפיתחתי,\nשמשלבת את הטעם האישי של הכלה,\nיחס אישי, התאמה מדויקת\nלסגנון ולמבנה הפנים,\nמקצוענות מוכחת וטאצ' עדכני.",
+    "color": "FF5733",
+    "address": "",
+    "hours": null,
+    "email": "ha0548520933@gmail.com",
+    "phone": "054-852-0933",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://hodayaa.co.il",
+    "showInHomePage": true
+  },
   {
     "id": 5,
     "name": "efratelmekies",
-    "value":"אפרת אלמקייס",
+    "value": "אפרת אלמקייס",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      10
+    ],
     "slogan": "רואת חשבון",
-    "categories": ["משרד"],
-    "categoryId": 11,
-    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
-    "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
+    "description": "",
     "color": "FF5733",
-    "phone":"054-844-7124",
-    "email":"cpa395577@gmail.com",
-    "address":"רב אשי 4"
+    "address": "רב אשי 4",
+    "hours": null,
+    "email": "cpa395577@gmail.com",
+    "phone": "054-844-7124",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
   },
   {
     "id": 6,
     "name": "rutifriedman",
-    "value":"רותי פרידמן",
+    "value": "רותי פרידמן",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      18
+    ],
     "slogan": "פאנית",
-    "categories": ["פאנית"],
-    "categoryId": 15,
-    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
-    "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
+    "description": "",
     "color": "FF5733",
-    "phone":"058-7277-663",
-    "address":"אביי 34"
+    "address": "אביי 34",
+    "hours": null,
+    "email": "",
+    "phone": "058-7277-663",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
   },
   {
     "id": 7,
     "name": "freebiz",
-    "value":"FreeBiz",
+    "value": "FreeBiz",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      10
+    ],
     "slogan": "מגיע לך לחיות",
-    "categories": ["משרד"],
-    "categoryId": 11,
-    "logoSrc": "https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png",
-    "imgSrc": "https://chanystern.com/wp-content/uploads/2020/02/D38A9827-1.jpg",
+    "description": "",
     "color": "FF5733",
-    "address":"שדרות האמוראים 23",
-    "phone":"053-437-5771",
-    "email":"mvip0527141077@gmail.com"
-  }  
+    "address": "שדרות האמוראים 23",
+    "hours": null,
+    "email": "mvip0527141077@gmail.com",
+    "phone": "053-437-5771",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 8,
+    "name": "b&d",
+    "value": "B&D",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      30
+    ],
+    "slogan": "טבעי שזה יותר בריא",
+    "description": "ייצור ושיווק\nמוצרי מזון טבעיים\nזו המומחיות שלנו!",
+    "color": "27813b",
+    "address": "שדרות האמוראים 73",
+    "hours": null,
+    "email": "brachi@bnd.co.il",
+    "phone": "02-563-5468",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://bnd.co.il/",
+    "showInHomePage": null
+  },
+  {
+    "id": 9,
+    "name": "optimali",
+    "value": "אופטימלי",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      4
+    ],
+    "slogan": "",
+    "description": "",
+    "color": "",
+    "address": "שדרות האמוראים 56",
+    "hours": null,
+    "email": "",
+    "phone": "02-651-1471",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 10,
+    "name": "rivkyhadad",
+    "value": "רבקי חדד",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      9
+    ],
+    "slogan": "אומנית האיפור",
+    "description": "איפור כלות, ערב, אופנה, סדנאות",
+    "color": "",
+    "address": "רב חנן 23/10",
+    "hours": null,
+    "email": "rivky0533121593@gmail.com",
+    "phone": "0533-121-593",
+    "phone2": "",
+    "whatsapp": "0533121593",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 11,
+    "name": "shevikresiansky",
+    "value": "שבי קרסניאנסקי",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      18
+    ],
+    "slogan": "סטודיו לפאות בוטיק",
+    "description": "תצוגת פאות טרנדית ומרהיבה, בניית פאה אישית, שדרוגים מפתיעים, עיצוב וסירוק, גוונים וצבע",
+    "color": "",
+    "address": "שדרות האמוראים 26",
+    "hours": null,
+    "email": "",
+    "phone": "054-845-5502",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 12,
+    "name": "microphone",
+    "value": "מיקרופון",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      23
+    ],
+    "slogan": "סלולר ששומע אותך",
+    "description": "מכירת מכשירים, מעבדה מקצועית, תקשורת סלולרית, קווים נייחים, נגנים ואביזרים",
+    "color": "",
+    "address": "שדרות האמוראים 15",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "12:00",
+        "to": "21:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:30",
+        "to": "12:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-8080800",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 13,
+    "name": "nava",
+    "value": "Nava",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      19
+    ],
+    "slogan": "תמיד בראש שלך",
+    "description": "מגוון כיסויי ראש ומשי אמיתי, בנדנות, מרובעות, לונגים, בסיסים, מבחר גדול בטעם שלך",
+    "color": "",
+    "address": "רב זירא 3",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:30 ",
+        "to": "12:30"
+      },
+      {
+        "days": "א-ה",
+        "from": "19:30",
+        "to": "22:30"
+      },
+      {
+        "days": "ו",
+        "from": "10:30",
+        "to": "12:30"
+      }
+    ],
+    "email": "nd7179308@gmail.com",
+    "phone": "",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 14,
+    "name": "kesherselular",
+    "value": "קשר סלולר",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      23
+    ],
+    "slogan": "זה מדבר אלי",
+    "description": "מכירת טלפונים, חיבור לקווים, ניודים, כל סוגי המכשירים, שירותי מעבדה",
+    "color": "",
+    "address": "שדרות האמוראים 56",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "21:00"
+      }
+    ],
+    "email": "",
+    "phone": "",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 15,
+    "name": "kdushathaktav",
+    "value": "קדושת הכתב",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      20
+    ],
+    "slogan": "טרקלין היודאיקה",
+    "description": "כל מה שצריך לבית היהודי, שבת וחג, חלאקה, בר מצווה, ספרי תורה, טליתות, כיפות",
+    "color": "",
+    "address": "רבינא 9",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:30",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "17:00",
+        "to": "21:30"
+      },
+      {
+        "days": "ו",
+        "from": "10:30",
+        "to": "13:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-664-1544",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 16,
+    "name": "kroizer",
+    "value": "קרויזר",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      33
+    ],
+    "slogan": "תנועה יוצרת שינוי",
+    "description": "אוהבת לראות תוצאות?\nהיומיום תופס לך את הראש והגב?\nכתפיים שמוטות/גב כפוף?\nרוצה לשפר את היציבה?\nמעוניינת להצר היקפים ולשדרג את הנראות?\nשואפת להתנהל בחיים עם מלא כח ואנרגיות בריאות?",
+    "color": "",
+    "address": "אביי 51",
+    "hours": null,
+    "email": "tnua639@gmail.com",
+    "phone": "073-345-2670",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": true
+  },
+  {
+    "id": 17,
+    "name": "otopo",
+    "value": "אוטופה",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      34
+    ],
+    "slogan": "השירות שלנו הכיוון שלך",
+    "description": "שכירות רכב מגוון רכבים היברידים ",
+    "color": "",
+    "address": "רבינא 14",
+    "hours": null,
+    "email": "",
+    "phone": "5683*",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 18,
+    "name": "vilonstyle",
+    "value": "וילון סטייל",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": null,
+    "slogan": "תפירת וילונות בתפירה אישית",
+    "description": "מבחר בדים, מסילה לוילון עד 6 מטר, בדים איכותיים",
+    "color": "",
+    "address": "ריש לקיש 20",
+    "hours": null,
+    "email": "",
+    "phone": "052-767-7983",
+    "phone2": "052-765-4218",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 19,
+    "name": "chanikleinman",
+    "value": "חני קליימן",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      18,
+      9
+    ],
+    "slogan": "פאנית בוטיק",
+    "description": "מכירה, עיצוב, סירוק, צבע, איפור",
+    "color": "",
+    "address": "אביי 17",
+    "hours": null,
+    "email": "",
+    "phone": "053-311-7350",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 20,
+    "name": "discover",
+    "value": "DISCOVER",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      35
+    ],
+    "slogan": "קל לעצב אווירה",
+    "description": "המרכז לפתרונות חיפוי, עיצוב ודקורציה",
+    "color": "",
+    "address": "רב חנן 2",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "9:00",
+        "to": "15:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "20:00",
+        "to": "22:00"
+      }
+    ],
+    "email": "office@discover1.co.il",
+    "phone": "02-999-2889",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 21,
+    "name": "green",
+    "value": "גרין",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      19,
+      8
+    ],
+    "slogan": "ביגוד לכל המשפחה",
+    "description": "בגדי ילדים, בגדי נשים, חלוקים, כותנות, בגדי בית, תכשיטים, מצעים, מגבות, נדוניה, מפות",
+    "color": "",
+    "address": "רב חנן 28",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "14:30"
+      },
+      {
+        "days": "א-ה",
+        "from": "16:00",
+        "to": "21:30"
+      },
+      {
+        "days": "ו",
+        "from": "10:00",
+        "to": "12:00"
+      }
+    ],
+    "email": "",
+    "phone": "",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 22,
+    "name": "gruner",
+    "value": "GRUNER",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      8
+    ],
+    "slogan": "גרונר. בית לשעונים",
+    "description": "שעוני מותג, שעוני כיס, תיקונים",
+    "color": "",
+    "address": "אביי 11",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "21:00",
+        "to": "23:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-586-0374",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 23,
+    "name": "haheichal",
+    "value": "ההיכל",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      36
+    ],
+    "slogan": "אולם אירועים ברמה ד'",
+    "description": "בריתות, בר מצוות, שבת חתן, שבת שבע ברכות כנסים",
+    "color": "",
+    "address": "מר עוקבא 20",
+    "hours": null,
+    "email": "",
+    "phone": "050-417-8454",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 24,
+    "name": "pitzponim",
+    "value": "פצפונים",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      1
+    ],
+    "slogan": "המרכז למוצרי תינוקות",
+    "description": "עגלות, כסאות אוכל, חדרי תינוקות, מוצצים, משחקים, ",
+    "color": "",
+    "address": "שדרות האמוראים 64",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "16:00",
+        "to": "22:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-999-5045",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 25,
+    "name": "tathaamoraim",
+    "value": "ת\"ת האמוראים",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      19
+    ],
+    "slogan": "חליפות וביגוד לגברים",
+    "description": "כל הביגוד לגברים במחירים שווים ומוצרים איכותיים",
+    "color": "",
+    "address": "שדרות האמוראים 34",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "19:00",
+        "to": "22:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:00",
+        "to": "12:30"
+      }
+    ],
+    "email": "",
+    "phone": "050-418-3448",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 26,
+    "name": "littlecrown",
+    "value": "ליטל קראון",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      19
+    ],
+    "slogan": "אופנה לילדים",
+    "description": "בגדי שבת וחול במחירים נוחים, בגדי אירועים כולל שושבינות, חליפות בנים 3 חלקים",
+    "color": "",
+    "address": "רב זירא 3",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "13:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "17:30",
+        "to": "22:00"
+      }
+    ],
+    "email": "Littlecrown10@gmail.com",
+    "phone": "053-414-0122",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 27,
+    "name": "timing",
+    "value": "TIMING",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      8
+    ],
+    "slogan": "טיימינג. שעונים ותכשיטים",
+    "description": "שעוני מותג לחתן ולכלה, שעונים לכל גיל, תכשיטי כסף וגולדפילד, מעבדה מקצועית",
+    "color": "",
+    "address": "שדרות האמוראים 56",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "17:00",
+        "to": "21:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:30",
+        "to": "12:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-801-5559",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 28,
+    "name": "bigpharm",
+    "value": "ביג פארם",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      11,
+      37,
+      38
+    ],
+    "slogan": "מוצרי פארם והגיינה",
+    "description": "בישום וקוסמטיקה, מוצרי הגיינה, מוצרי תינוקות, מוצרי ניקיון, חד פעמי, כלי בית ועוד",
+    "color": "",
+    "address": "שדרות האמוראים 26",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "9:00",
+        "to": "23:00"
+      },
+      {
+        "days": "ו",
+        "from": "9:00",
+        "to": "15:00"
+      },
+      {
+        "days": "מוצ\"ש",
+        "from": "שעה לאחר שבת",
+        "to": "23:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-623-1511",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 29,
+    "name": "pudra",
+    "value": "PUDRA",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      37
+    ],
+    "slogan": "פודרה. משלים לך יופי",
+    "description": "מלאי פונקציונאלי של מוצרי דגל מהחברות המובילות עם הבנה מדוייקת לצרכים הספציפיים שלך",
+    "color": "",
+    "address": "רב זירא 3",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:30",
+        "to": "14:30"
+      },
+      {
+        "days": "א-ה",
+        "from": "19:00",
+        "to": "10:30"
+      }
+    ],
+    "email": "P025719998@gmail.com",
+    "phone": "02-571-9998",
+    "phone2": "052-769-6598",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  }
 ]
