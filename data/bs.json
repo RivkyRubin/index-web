@@ -40,6 +40,7 @@
     "hasImage": true,
     "hasBigImage": true,
     "categories": [
+      41,
       19,
       16
     ],
@@ -103,9 +104,9 @@
     "id": 5,
     "name": "efratelmekies",
     "value": "אפרת אלמקייס",
-    "hasLogo": null,
-    "hasImage": null,
-    "hasBigImage": null,
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
     "categories": [
       10
     ],
@@ -119,15 +120,15 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": true
   },
   {
     "id": 6,
     "name": "rutifriedman",
     "value": "רותי פרידמן",
-    "hasLogo": null,
-    "hasImage": null,
-    "hasBigImage": null,
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
     "categories": [
       18
     ],
@@ -141,7 +142,7 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": true
   },
   {
     "id": 7,
@@ -235,9 +236,9 @@
     "id": 11,
     "name": "shevikresiansky",
     "value": "שבי קרסניאנסקי",
-    "hasLogo": null,
-    "hasImage": null,
-    "hasBigImage": null,
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
     "categories": [
       18
     ],
@@ -294,6 +295,7 @@
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
+      40,
       19
     ],
     "slogan": "תמיד בראש שלך",
@@ -394,9 +396,9 @@
     "id": 16,
     "name": "kroizer",
     "value": "קרויזר",
-    "hasLogo": null,
-    "hasImage": null,
-    "hasBigImage": null,
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
     "categories": [
       33
     ],
@@ -441,7 +443,9 @@
     "hasLogo": null,
     "hasImage": null,
     "hasBigImage": null,
-    "categories": null,
+    "categories": [
+      35
+    ],
     "slogan": "תפירת וילונות בתפירה אישית",
     "description": "מבחר בדים, מסילה לוילון עד 6 מטר, בדים איכותיים",
     "color": "",
@@ -519,7 +523,8 @@
     "hasBigImage": null,
     "categories": [
       19,
-      8
+      8,
+      35
     ],
     "slogan": "ביגוד לכל המשפחה",
     "description": "בגדי ילדים, בגדי נשים, חלוקים, כותנות, בגדי בית, תכשיטים, מצעים, מגבות, נדוניה, מפות",
@@ -629,7 +634,7 @@
     "phone": "02-999-5045",
     "phone2": "",
     "whatsapp": "",
-    "website": "",
+    "website": "https://www.pitsponim.co.il/",
     "showInHomePage": null
   },
   {
@@ -640,6 +645,7 @@
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
+      39,
       19
     ],
     "slogan": "חליפות וביגוד לגברים",
@@ -673,6 +679,7 @@
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
+      41,
       19
     ],
     "slogan": "אופנה לילדים",
@@ -784,7 +791,9 @@
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
-      37
+      37,
+      40,
+      9
     ],
     "slogan": "פודרה. משלים לך יופי",
     "description": "מלאי פונקציונאלי של מוצרי דגל מהחברות המובילות עם הבנה מדוייקת לצרכים הספציפיים שלך",
@@ -805,6 +814,702 @@
     "email": "P025719998@gmail.com",
     "phone": "02-571-9998",
     "phone2": "052-769-6598",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 30,
+    "name": "meshulashim",
+    "value": "משולשים",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      13
+    ],
+    "slogan": "חלבי משפחתי",
+    "description": "כל מה שאתם צריכים לארוחה מפנקת, פיצות, טוסטים, הום פרייז, גלידות, סלטים",
+    "color": "",
+    "address": "שדרות האמוראים 26",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:30",
+        "to": "23:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:30",
+        "to": "14:30"
+      },
+      {
+        "days": "מוצ\"ש",
+        "from": "שעה לאחר שבת",
+        "to": "00:00"
+      }
+    ],
+    "email": "",
+    "phone": "1700-55-90-55",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://meshulashim.co.il/",
+    "showInHomePage": null
+  },
+  {
+    "id": 31,
+    "name": "marcus",
+    "value": "מרקוס",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      6,
+      35
+    ],
+    "slogan": "מרקוס. ריהוט מבית טוב",
+    "description": "במרקוס תהנו מעיצוב ואווירה בהתאמה אישית, ותקבלו את הטוב ביותר בתקציב שלכם, חדרי שינה, חדרי ילדים, ספריות, פינות אוכל, ספות",
+    "color": "",
+    "address": "אביי 25",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "19:30",
+        "to": "22:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-6200-500",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://markus-rm.co.il/",
+    "showInHomePage": true
+  },
+  {
+    "id": 32,
+    "name": "mixer",
+    "value": "מיקסר",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      24
+    ],
+    "slogan": "מוצרי חשמל וסלולר",
+    "description": "חנות מוצרי חשמל וסלולר הגדולה והמשתלמת ברמה ד! מבחר מחלקות, מוצגי איכות ושירות ללא תחרות",
+    "color": "",
+    "address": "שדרות האמוראים 26",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "21:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:00",
+        "to": "12:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-572-1666",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 33,
+    "name": "bronza",
+    "value": "BRONZA",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      40,
+      8
+    ],
+    "slogan": "סטיילינג. זה ההבדל",
+    "description": "כאן תמצאי את ההבדל בין לוק סטנדרטי ללוק מושלם, עם שירות סטיילינג אישי כי ההבדל נמצא בפרטים הקטנים",
+    "color": "",
+    "address": "שדרות האמוראים 12",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:30",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "20:00",
+        "to": "22:30"
+      }
+    ],
+    "email": "",
+    "phone": "054-848-4670",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 34,
+    "name": "chalathabait",
+    "value": "חלת הבית",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      2,
+      13
+    ],
+    "slogan": "מאפיה קונדטוריה",
+    "description": "לחמים, חלות, פיצות עבודת יד, עוגות ימי הולדת, מאפים, סלטים בהרכבה אישית, טוסטים",
+    "color": "",
+    "address": "שדרות האמוראים 24",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:30",
+        "to": "23:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:30",
+        "to": "14:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-543-9047",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 35,
+    "name": "liya",
+    "value": "LI-YA",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      40,
+      31
+    ],
+    "slogan": "לי-יה אופנה איכותית ואלגנטית",
+    "description": "בייסיק מטפחות, גרביונים, תכשיטים",
+    "color": "",
+    "address": "שדרות האמוראים 30",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "22:00"
+      },
+      {
+        "days": "ו",
+        "from": "9:30",
+        "to": "13:45"
+      }
+    ],
+    "email": "",
+    "phone": "",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 36,
+    "name": "mercazlabaitbarama",
+    "value": "במרכז לבית ברמה",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      35
+    ],
+    "slogan": "כל-בו כל מה שצריכים לבית היהודי",
+    "description": "במרכז לבית תמצאו הכול תחת קורת גג אחת במחירים משתלמים ובאיכות ללא פשרות",
+    "color": "",
+    "address": "אביי 7",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "9:00",
+        "to": "21:30"
+      },
+      {
+        "days": "ו",
+        "from": "9:30",
+        "to": "12:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-628-8088",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 37,
+    "name": "sockset",
+    "value": "SOCKSET",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      31,
+      40,
+      41
+    ],
+    "slogan": "טופ שבא ברגל",
+    "description": "שפע של גרביים במבחר ענק ועדכני, כל הצבעים החברות, הסגנונות והגדלים, גברים נשים ילדים, אביזרי שער",
+    "color": "",
+    "address": "רב חנן 9",
+    "hours": [
+      {
+        "days": "א-ה ",
+        "from": "20:00",
+        "to": "22:30"
+      },
+      {
+        "days": "ו",
+        "from": "10:30",
+        "to": "12:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-802-0775",
+    "phone2": "053-410-0829",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 38,
+    "name": "daletknafot",
+    "value": "ד' כנפות",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      20
+    ],
+    "slogan": "המרכז לתשמישי קדושה ברמה ד'",
+    "description": "מבחר ענק של כיפות הופמן לילדים וכיפות שינה, טליתות ציציות, מזכרות לאירועים, סידורים ותהילים מהחברות המובילות, ",
+    "color": "",
+    "address": "שדרות האמוראים 16",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "16:30",
+        "to": "20:30"
+      },
+      {
+        "days": "ו",
+        "from": "10:00",
+        "to": "12:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-626-2327",
+    "phone2": "053-311-5462",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 39,
+    "name": "kidsstyle",
+    "value": "קידסטייל",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      41
+    ],
+    "slogan": "בגדי ילדים ומותגים",
+    "description": "כל המותגים המובילים, בלוויב, צ'רניס, גלורי, בקיגנאהם, ליטלוקס, ועוד",
+    "color": "",
+    "address": "שדרות אמוראים 54",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "15:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "17:00",
+        "to": "22:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-656-8280",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 40,
+    "name": "smartplace",
+    "value": "סמארט פלייס",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      35
+    ],
+    "slogan": "כל מה שצריך לבית!",
+    "description": "כלי בית ומטבח, פתרונות איחסון, מוצרי אמבטיה, מחסנים וריהוט גן",
+    "color": "",
+    "address": "אביי 5",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "22:00"
+      },
+      {
+        "days": "ו",
+        "from": "9:30",
+        "to": "13:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-623-1342",
+    "phone2": "050-613-6898",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 41,
+    "name": "ponpano",
+    "value": "Ponpano",
+    "hasLogo": null,
+    "hasImage": true,
+    "hasBigImage": null,
+    "categories": [
+      41
+    ],
+    "slogan": "By papaya- הולכים על איכות",
+    "description": "נעלי פאפיה לילדים ולילדות",
+    "color": "",
+    "address": "שדרות האמוראים פינת רבינא",
+    "hours": null,
+    "email": "",
+    "phone": "",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://ponpano.com",
+    "showInHomePage": null
+  },
+  {
+    "id": 42,
+    "name": "olamhatinok",
+    "value": "עולם התינוק",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      1,
+      41
+    ],
+    "slogan": "לתינוק המתוק בעולם",
+    "description": "מה שצריך לתינוק, עגלות ואביזרים, כסאות אוכל, ריהוט, ביגוד, ",
+    "color": "",
+    "address": "שדרות האמוראים 4",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "17:30",
+        "to": "22:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:00",
+        "to": "12:00"
+      }
+    ],
+    "email": "n0533182488@gmail.com",
+    "phone": "053-318-2488",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://olam-hatinok.co.il/",
+    "showInHomePage": null
+  },
+  {
+    "id": 45,
+    "name": "knaanichashmal",
+    "value": "כנעני חשמל",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      35,
+      24
+    ],
+    "slogan": "תאורה וחומרי חשמל בסיטונאות",
+    "description": "תצוגה מרהיבה של גופי תאורה, וחשמל, במחירים מצויינים",
+    "color": "",
+    "address": "שדרות האמוראים 16",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "8:30",
+        "to": "20:00"
+      },
+      {
+        "days": "ו",
+        "from": "8:30",
+        "to": "13:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-509-6551",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 55,
+    "name": "chushhariut",
+    "value": "חוש הריהוט",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      6
+    ],
+    "slogan": "יש לנו את זה ",
+    "description": "פינות ישיבה, סלונים, ארונות וספריות, חדרי שינה, חדרי ילדים",
+    "color": "",
+    "address": "רב חנן 6",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה",
+        "from": "17:00",
+        "to": "22:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-572-0994",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 56,
+    "name": "kolbohaamoraim",
+    "value": "כל בו האמוראים",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      35
+    ],
+    "slogan": "כלי עבודה וכלי בית",
+    "description": "אינסטלציה, חשמל, כלי עבודה, שכפול מפתחות,שפרזול ועיצוב, פתרונות איחסון, כלי בית",
+    "color": "",
+    "address": "שדרות האמוראים 92",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "21:00"
+      },
+      {
+        "days": "ו",
+        "from": "9:30",
+        "to": "13:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-567-6666",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 57,
+    "name": "yofishelrihut",
+    "value": "יופי של ריהוט",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": null,
+    "categories": [
+      6
+    ],
+    "slogan": "המרכז לעיצוב הבית",
+    "description": "ארונות, ספות, פינות אוכל, מכתביות, חדרי שינה, כורסאות",
+    "color": "",
+    "address": "אביי 33 ב'",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "14:30"
+      },
+      {
+        "days": "א-ה",
+        "from": "18:30",
+        "to": "22:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-641-3770",
+    "phone2": "052-544-4871",
+    "whatsapp": "",
+    "website": "https://www.ysrihut.co.il/",
+    "showInHomePage": null
+  },
+  {
+    "id": 58,
+    "name": "peaminnoy",
+    "value": "פעמית נוי",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      38,
+      35
+    ],
+    "slogan": "המרכז למוצרי חד פעמי ועיצוב הולחן",
+    "description": "כל סוגי החד פעמי, אביזרים לעיצוב השולחן, נרות ראנרים ועוד",
+    "color": "",
+    "address": "שדרות האמוראים 18",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "21:00"
+      },
+      {
+        "days": "ו",
+        "from": "9:00",
+        "to": "13:30"
+      }
+    ],
+    "email": "c0527610214@gmail.com",
+    "phone": "055-561-9373",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 59,
+    "name": "front",
+    "value": "פרונט",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      14
+    ],
+    "slogan": "דפוס של שירות",
+    "description": "שירותי דפוס והפקה למוסדות עסקים אירועים ופרטי, מודעות חוברות, מגנטים, שלטים, שמשוניות, קאפות ועוד",
+    "color": "",
+    "address": "אביי 33 ב'",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "18:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-537-7388",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 60,
+    "name": "mercazhasheinavais",
+    "value": "מרכז השינה וייס",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      6
+    ],
+    "slogan": "יש על מה לישון",
+    "description": "מזרונים חדרי שינה ומיטות נוער, משווק מורשה של החברות המובילות עמינח פולירון סימנס קינג קויל",
+    "color": "",
+    "address": "שדרות האמוראים 16",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "12:00",
+        "to": "14:30"
+      },
+      {
+        "days": "א-ה",
+        "from": "16:30",
+        "to": "21:00"
+      }
+    ],
+    "email": "",
+    "phone": "054-849-3858",
+    "phone2": "053-311-1077",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null
+  },
+  {
+    "id": 61,
+    "name": "hadfus",
+    "value": "הדפוס",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      14
+    ],
+    "slogan": "דפוס מתקדם",
+    "description": "בית דפוס מתקדם, כל פתרונות הדפוס מתחת לבית",
+    "color": "",
+    "address": "נהרדעא 18",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "15:00",
+        "to": "22:00"
+      },
+      {
+        "days": "ו",
+        "from": "10:00",
+        "to": "11:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-676-3535",
+    "phone2": "",
     "whatsapp": "",
     "website": "",
     "showInHomePage": null
