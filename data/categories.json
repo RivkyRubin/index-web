@@ -15,7 +15,7 @@
   { "id": 14, "value": "דפוס", "name": "print" },
   { "id": 15, "value": "תפירה", "name": "sewing" },
   { "id": 16, "value": "הנעלה", "name": "shoes", "size": 3 ,"usedCategory":true,"details":"נעליים" },
-  { "id": 17, "value": "משחקים וכלי כתיבה", "name": "toys", "size": 2 ,"usedCategory":true ,"details":"צעצועים, תחפושות, מכשירי כתיבה"},
+  { "id": 17, "value": "משחקים וכלי כתיבה", "name": "toys", "size": 2 ,"usedCategory":true ,"details":"צעצועים, גן, תחפושות, מכשירי כתיבה"},
   { "id": 18, "value": "פאניות", "name": "wigs","details":"פאנית, פאות" },
   { "id": 19, "value": "ביגוד", "name": "cloth", "size": 3 ,"usedCategory":true,"details":"הלבשה, בגדים" },
   { "id": 20, "value": "תשמישי קדושה", "name": "kdusha" ,"details":"כיפות, ציציות, מזוזות"},
