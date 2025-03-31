@@ -30,7 +30,8 @@
     "phone2": "055-9281543",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 2,
@@ -54,7 +55,8 @@
     "phone2": "",
     "whatsapp": "029920000",
     "website": "https://leaderkids.co.il",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 3,
@@ -76,7 +78,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 4,
@@ -98,7 +101,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://hodayaa.co.il",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 5,
@@ -120,7 +124,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 6,
@@ -142,13 +147,13 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 7,
     "name": "freebiz",
     "value": "FreeBiz",
-    "description":"בעל עסק, תתחיל לעבוד רק במה שאתה טוב בו -\nאת כל השאר תשאיר לנו. פריביז ניהול אישי לעסק בראשות\nבתיה פלדמן מעניק היקף רחב של שירותי ניהול וארגון לעסק.",
     "hasLogo": true,
     "hasImage": true,
     "hasBigImage": null,
@@ -156,6 +161,7 @@
       10
     ],
     "slogan": "מה שכבד לך בעסק עלינו",
+    "description": "  בעל עסק, תתחיל לעבוד רק במה שאתה טוב בו -\nאת כל השאר תשאיר לנו. פריביז ניהול אישי לעסק בראשות\nבתיה פלדמן מעניק היקף רחב של שירותי ניהול וארגון לעסק.,",
     "color": "FF5733",
     "address": "שדרות האמוראים 23",
     "hours": null,
@@ -164,7 +170,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 8,
@@ -197,7 +204,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://bnd.co.il/",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 9,
@@ -219,7 +227,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 10,
@@ -241,7 +250,8 @@
     "phone2": "",
     "whatsapp": "0533121593",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 11,
@@ -263,7 +273,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 12,
@@ -296,7 +307,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 13,
@@ -335,7 +347,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 14,
@@ -363,7 +376,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 15,
@@ -401,7 +415,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 16,
@@ -423,7 +438,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 17,
@@ -445,7 +461,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 18,
@@ -467,7 +484,8 @@
     "phone2": "052-765-4218",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 19,
@@ -490,7 +508,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 20,
@@ -523,7 +542,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 21,
@@ -563,7 +583,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 22,
@@ -591,7 +612,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 23,
@@ -613,7 +635,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 24,
@@ -646,7 +669,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://www.pitsponim.co.il/",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 25,
@@ -680,7 +704,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 26,
@@ -714,7 +739,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 27,
@@ -752,7 +778,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 28,
@@ -792,7 +819,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 29,
@@ -827,7 +855,8 @@
     "phone2": "052-769-6598",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 30,
@@ -865,7 +894,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://meshulashim.co.il/",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 31,
@@ -899,7 +929,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://markus-rm.co.il/",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 32,
@@ -933,7 +964,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 33,
@@ -967,7 +999,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 34,
@@ -1001,7 +1034,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 35,
@@ -1035,7 +1069,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 36,
@@ -1068,7 +1103,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 37,
@@ -1103,7 +1139,8 @@
     "phone2": "053-410-0829",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 38,
@@ -1136,7 +1173,8 @@
     "phone2": "053-311-5462",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 39,
@@ -1169,7 +1207,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 40,
@@ -1202,7 +1241,8 @@
     "phone2": "050-613-6898",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 41,
@@ -1225,7 +1265,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://ponpano.com",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 42,
@@ -1264,7 +1305,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://olam-hatinok.co.il/",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 45,
@@ -1298,7 +1340,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 55,
@@ -1331,7 +1374,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 56,
@@ -1364,7 +1408,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 57,
@@ -1397,7 +1442,8 @@
     "phone2": "052-544-4871",
     "whatsapp": "",
     "website": "https://www.ysrihut.co.il/",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 58,
@@ -1431,7 +1477,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 59,
@@ -1459,7 +1506,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 60,
@@ -1492,7 +1540,8 @@
     "phone2": "053-311-1077",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 61,
@@ -1525,7 +1574,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 62,
@@ -1553,7 +1603,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 63,
@@ -1581,7 +1632,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 64,
@@ -1609,7 +1661,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 65,
@@ -1637,7 +1690,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 66,
@@ -1659,7 +1713,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 67,
@@ -1692,7 +1747,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 68,
@@ -1725,7 +1781,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 69,
@@ -1747,7 +1804,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 70,
@@ -1782,7 +1840,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 71,
@@ -1816,7 +1875,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 72,
@@ -1838,7 +1898,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 73,
@@ -1871,7 +1932,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 74,
@@ -1904,7 +1966,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 76,
@@ -1937,7 +2000,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 77,
@@ -1960,7 +2024,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 78,
@@ -1993,7 +2058,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 79,
@@ -2026,7 +2092,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 80,
@@ -2059,7 +2126,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 81,
@@ -2092,7 +2160,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 82,
@@ -2125,7 +2194,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 83,
@@ -2147,7 +2217,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 84,
@@ -2185,7 +2256,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 85,
@@ -2207,7 +2279,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 86,
@@ -2240,7 +2313,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 87,
@@ -2274,7 +2348,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 88,
@@ -2314,7 +2389,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 89,
@@ -2347,7 +2423,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 90,
@@ -2380,7 +2457,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 91,
@@ -2413,7 +2491,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 92,
@@ -2435,7 +2514,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 93,
@@ -2458,7 +2538,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 94,
@@ -2496,7 +2577,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 95,
@@ -2524,7 +2606,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 96,
@@ -2557,7 +2640,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 97,
@@ -2600,7 +2684,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 98,
@@ -2622,7 +2707,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 99,
@@ -2645,7 +2731,8 @@
     "phone2": "02-8000247",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 100,
@@ -2667,7 +2754,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null
+    "showInHomePage": null,
+    "hideBusiness": null
   },
   {
     "id": 101,
@@ -2701,7 +2789,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://www.kidichic.co.il/",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 102,
@@ -2734,7 +2823,8 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 103,
@@ -2767,12 +2857,155 @@
     "phone2": "058-320-6840",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": true
+    "showInHomePage": true,
+    "hideBusiness": null
   },
   {
     "id": 104,
     "name": "ramad",
-  "value":"רמה ד",
-"hideBusiness":true
-}
+    "value": "אתר רמה ד",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": null,
+    "slogan": "",
+    "description": "",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "",
+    "phone": "",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": true
+  },
+  {
+    "id": 105,
+    "name": "mimos",
+    "value": "MIMOS",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      40,
+      19
+    ],
+    "slogan": "מימוס. להתפנק בנוחות להראות בסטייל",
+    "description": "שמלות, כותנות מהממות, חלוקי בית מפנקים, סטים ובגדי הנ. /nחולצות שקיות ועוד...",
+    "color": "",
+    "address": "רב זירא 3 בחניה",
+    "hours": [
+      {
+        "days": "בוקר",
+        "from": "10:30",
+        "to": "13:00"
+      },
+      {
+        "days": "ערב",
+        "from": "18:00",
+        "to": "22:30"
+      }
+    ],
+    "email": "",
+    "phone": "02-6271744",
+    "phone2": "בתיאום 054-8400287",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 106,
+    "name": "afifit",
+    "value": "אפיפית",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      27
+    ],
+    "slogan": "חנות בשירות עצמי 24/6",
+    "description": "מוצרי אפיה, פירות קפואים/nכל מוצרי האפיה במקום אחד!\n כל המוצרים בכשרות בדץ העדה החרדית",
+    "color": "",
+    "address": "שדרות האמוראים 26",
+    "hours": null,
+    "email": "",
+    "phone": "055-6798524",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 107,
+    "name": "hazughazarfati",
+    "value": "קייטרינג הזוג הצרפתי",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      36
+    ],
+    "slogan": "הכתובת שלך לכל אירוע",
+    "description": "קייטרינג ביתי שמייצר מגשי אירוח ייחודים / עריכת שולחנות שוק בוטיק ואירועי בופה לכל אירוע",
+    "color": "",
+    "address": "רמה ד2",
+    "hours": null,
+    "email": "eitanguedj932@gmail.com",
+    "phone": "058-5630058",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 108,
+    "name": "yossi",
+    "value": "יוסי",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": null,
+    "categories": [
+      28
+    ],
+    "slogan": "ההנדימן שלך",
+    "description": "מתמחה בתיקוני בית ותחזוקה שוטפת תיקון תריסים אינסטלציה פירוק והרכבת רהיטים מידוף למחסנים והתקנת רשתות נגד יונים",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "ys0527127999@gmail.com",
+    "phone": "050-398-3990",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 109,
+    "name": "miriamfitness",
+    "value": "מרים פיטנס",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      33
+    ],
+    "slogan": "הכי קרוב לאימון אישי!",
+    "description": "סטודיו בוטיק לכושר לנשים,\nאימוני כח, פילאטיס, אירובי ועוד..\nמקצועיות ברמה גבוהה מאוד! קבוצות קטנות והתאמה מדויקת לכל אישה בכל מצב\nשיפור היציבה. רצפת האגן. ירידה במשקל וצימצום היקפים. חיזוק שרירים. מודעות ושיפור טכניקה יומיומית.",
+    "color": "",
+    "address": "ריש לקיש 8",
+    "hours": null,
+    "email": "Miriamto6324@gmail.com",
+    "phone": "058-7186324",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  }
 ]

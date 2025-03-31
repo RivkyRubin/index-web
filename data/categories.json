@@ -26,7 +26,7 @@
   { "id": 25, "value": "ירקן", "name": "greengrocery" },
   { "id": 26, "value": "קינוחים ועוגות", "name": "dessert" },
   { "id": 27, "value": "מוצרי אפייה", "name": "baking" },
-  { "id": 28, "value": "בעלי מקצוע", "name": "fixes","details":"אינסטלטור, מתקין" },
+  { "id": 28, "value": "בעלי מקצוע", "name": "fixes","details":"אינסטלטור, תיקונים, תיקון, מתקין" },
   { "id": 29, "value": "פסח", "name": "passover", "size": 3 ,"usedCategory":false },
   { "id": 30, "value": "אוכל מוכן וטשולנטיות", "name": "food", "size": 2 ,"usedCategory":true,"details":"שבת, מסעדה" },
   { "id": 31, "value": "גרביים", "name": "socks", "size": 2 },
