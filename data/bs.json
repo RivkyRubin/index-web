@@ -148,14 +148,14 @@
     "id": 7,
     "name": "freebiz",
     "value": "FreeBiz",
+    "description":"בעל עסק, תתחיל לעבוד רק במה שאתה טוב בו -\nאת כל השאר תשאיר לנו. פריביז ניהול אישי לעסק בראשות\nבתיה פלדמן מעניק היקף רחב של שירותי ניהול וארגון לעסק.",
     "hasLogo": true,
     "hasImage": true,
     "hasBigImage": null,
     "categories": [
       10
     ],
-    "slogan": "מגיע לך לחיות",
-    "description": "",
+    "slogan": "מה שכבד לך בעסק עלינו",
     "color": "FF5733",
     "address": "שדרות האמוראים 23",
     "hours": null,
