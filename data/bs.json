@@ -2712,9 +2712,9 @@
   },
   {
     "id": 99,
-    "name": "bellaza",
-    "value": "Bellaza",
-    "hasLogo": null,
+    "name": "bellezza",
+    "value": "Bellezza",
+    "hasLogo": true,
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
