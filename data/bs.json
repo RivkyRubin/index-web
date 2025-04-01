@@ -115,7 +115,7 @@
       10
     ],
     "slogan": "רואת חשבון",
-    "description": "",
+    "description": "דוחות כספיים | ניהול כספים | ביקורת פנים | הנה\"ח ושכר",
     "color": "FF5733",
     "address": "רב אשי 4",
     "hours": null,
@@ -314,7 +314,7 @@
     "id": 13,
     "name": "nava",
     "value": "Nava",
-    "hasLogo": null,
+    "hasLogo": true,
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
@@ -862,9 +862,9 @@
     "id": 30,
     "name": "meshulashim",
     "value": "משולשים",
-    "hasLogo": null,
-    "hasImage": null,
-    "hasBigImage": null,
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
     "categories": [
       13
     ],
@@ -1075,7 +1075,7 @@
   {
     "id": 36,
     "name": "mercazlabaitbarama",
-    "value": "במרכז לבית ברמה",
+    "value": "המרכז לבית ברמה",
     "hasLogo": null,
     "hasImage": null,
     "hasBigImage": null,
@@ -1098,7 +1098,7 @@
         "to": "12:30"
       }
     ],
-    "email": "",
+    "email": "a6288088@gmail.com",
     "phone": "02-628-8088",
     "phone2": "",
     "whatsapp": "",
@@ -2324,7 +2324,6 @@
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
-      10,
       17
     ],
     "slogan": "",
@@ -2430,8 +2429,8 @@
     "id": 90,
     "name": "orhachaim",
     "value": "אור החיים",
-    "hasLogo": null,
-    "hasImage": null,
+    "hasLogo": true,
+    "hasImage": true,
     "hasBigImage": null,
     "categories": [
       3
@@ -2713,7 +2712,7 @@
   {
     "id": 99,
     "name": "bellezza",
-    "value": "Bellezza",
+    "value": "Bellaza",
     "hasLogo": true,
     "hasImage": null,
     "hasBigImage": null,
@@ -3002,6 +3001,35 @@
     "hours": null,
     "email": "Miriamto6324@gmail.com",
     "phone": "058-7186324",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 110,
+    "name": "patisyer",
+    "value": "פטיסייר",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      27
+    ],
+    "slogan": "עולם של אפיה",
+    "description": "",
+    "color": "",
+    "address": "רבי חנינא 6 קומה 4",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "18:30",
+        "to":"22:30 או בתיאום"
+      }
+    ],
+    "email": "",
+    "phone": "02-6235393",
     "phone2": "",
     "whatsapp": "",
     "website": "",
