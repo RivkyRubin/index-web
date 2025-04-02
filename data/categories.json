@@ -5,7 +5,7 @@
   { "id": 4, "value": "משקפיים", "name": "eyeglasses" },
   { "id": 5, "value": "דגים", "name": "fish" },
   { "id": 6, "value": "ריהוט", "name": "furniture", "size": 3 ,"usedCategory":true,"details":"רהיטים, מטבח, ספות" },
-  { "id": 7, "value": "מתנות", "name": "gifts", "size": 2 ,"usedCategory":false },
+  { "id": 7, "value": "מתנות ופרחים", "name": "gifts", "size": 2 ,"usedCategory":false },
   { "id": 8, "value": "תכשיטים ושעונים", "name": "jewelry" },
   { "id": 9, "value": "איפור", "name": "makeup" ,"details":"מאפרת"},
   { "id": 10, "value": "משרד", "name": "office" , "details":"רואת חשבון, שירותי משרד"},

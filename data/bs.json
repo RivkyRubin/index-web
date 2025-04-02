@@ -137,8 +137,8 @@
     "categories": [
       18
     ],
-    "slogan": "פאנית",
-    "description": "",
+    "slogan": "פאות בוטיק",
+    "description": "בואי לרכוש פאה וליהנות מאיכות נדירה והתאמה מדויקת!",
     "color": "FF5733",
     "address": "אביי 34",
     "hours": null,
@@ -3025,11 +3025,126 @@
       {
         "days": "א-ה",
         "from": "18:30",
-        "to":"22:30 או בתיאום"
+        "to": " 22:30 או בתיאום"
       }
     ],
     "email": "",
     "phone": "02-6235393",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 111,
+    "name": "naomideutsch",
+    "value": "נעמי דויטש",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      12
+    ],
+    "slogan": "להנציח מתיקות",
+    "description": "שלום אני נעמי דויטש צלמת ניו בורן וילדים.\n תלמידה של הצלמת הידועה מלכי אייזנבאך. \nיש בי הרבה רוך סבלנות ואהבה לילדים ונהנית להנציח את המתיקות הטבעית שלהם. ",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "nd0504136104@gmail.com",
+    "phone": "0504-136-104",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://659139fc9e252.site123.me/",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 112,
+    "name": "mazaldagim",
+    "value": "מזל דגים",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      5
+    ],
+    "slogan": "דגים טריים, קפואים, מעושנים וסלטים",
+    "description": "הזמנות ומשלוחים בבית שמש ובסביבה\nמח' ניסן שעות פתיחה מורחבות: מ 8:00 עד 20:30",
+    "color": "",
+    "address": "שדרות האמוראים 18",
+    "hours": null,
+    "email": "",
+    "phone": "02-5666638",
+    "phone2": "02-5632222",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 113,
+    "name": "kroin",
+    "value": "קרוין",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      36
+    ],
+    "slogan": "ייזום והפקות אירועים",
+    "description": "הפקות אירועים וניהול פרוייקטים\nהכנסת ספר תורה | חתונות | אירועים | השקות | אירועים משפחתיים\nכל אירוע אחר...",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "4106688@gmail.com",
+    "phone": "050-410-66-88",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 114,
+    "name": "prachimvegivol",
+    "value": "פרחים וגבעול",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      7
+    ],
+    "slogan": "פרחים לאנשים שאוהבים",
+    "description": "חנות לפרחים חיים טריים ואיכותיים בהרכבה אישית ובהתאמה לתקציב ולטעם הלקוח\nשזירה ברמה אחרת בסטייל ובסגנון ייחודי.\nבחנות מבחר ענק של אגרטלים, עציצים, יינות, שוקולדים ובלונים\nשיהפכו את המתנה שלכם למושלמת\nשירות משלוחים בכל רחבי הארץ\nשוזרים זרי כלה וזרי אירוסין מרהיבים. קישוטי רכבים, עיצובי פרחים ואירועים.\nפתוח בחמישי, שישי, ערבי חג ובתיאום מראש.",
+    "color": "",
+    "address": "אביי 19 ",
+    "hours": null,
+    "email": "a0527628119@gmail.com",
+    "phone": "052-7628119",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": true,
+    "hideBusiness": null
+  },
+  {
+    "id": 115,
+    "name": "keshet",
+    "value": "קשת דיו וטונרים",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      14
+    ],
+    "slogan": "שיווק ומכירת מדפסות, טונרים וציוד היקפי",
+    "description": "מכירת דיו, טונרים ומדפסות\nמשלוח חינם מהיום להיום\nמחיר, שירות, אחריות, אמינות וזמינות 24/6",
+    "color": "",
+    "address": "שדרות האמוראים 12 קומה 3",
+    "hours": null,
+    "email": "keshet8123@gmail.com",
+    "phone": "058-7178123",
     "phone2": "",
     "whatsapp": "",
     "website": "",
