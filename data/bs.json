@@ -109,12 +109,12 @@
     "name": "efratelmekies",
     "value": "אפרת אלמקייס",
     "hasLogo": true,
-    "hasImage": null,
+    "hasImage": true,
     "hasBigImage": null,
     "categories": [
       10
     ],
-    "slogan": "רואת חשבון",
+    "slogan": "שירותי חשבונאות",
     "description": "דוחות כספיים | ניהול כספים | ביקורת פנים | הנה\"ח ושכר",
     "color": "FF5733",
     "address": "רב אשי 4",
@@ -2506,7 +2506,7 @@
   {
     "id": 92,
     "name": "shtaimtishim",
-    "value": "2.9",
+    "value": "2.90",
     "hasLogo": null,
     "hasImage": null,
     "hasBigImage": null,
@@ -3372,10 +3372,77 @@
       }
     ],
     "email": "v0533106516@gmail.com",
-    "phone": "0583266319",
+    "phone": "058-3266319",
     "phone2": "",
     "whatsapp": "",
     "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 123,
+    "name": "perlina",
+    "value": "פרלינה",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      27
+    ],
+    "slogan": "בוטיק למוצרי אפיה ופירות קפואים",
+    "description": "עולם שלם של מוצרי אפיה וציוד משלים, פירות קפואים, הדפסה על דפים אכילים וטרנספר, קצפות איכותיות, תבניות, מארזי קרטון, קינוחיות, קישוטי עוגות מרהיבים, שוקולדים איכותיים, קרמים ורטבים מפנקים, טארטלטים, גליליות, פיצוחים לאפיה, צבעי מאכל ועוד..\nכל המוצרים בד\"ץ העדה החרדית.\nשירות VIP מכל הלב.\n\nניתן לתאם הגעה במהלך כל שעות היום בזמינות גבוהה.\nמשלוחים חינם ברמה ד' מעל 100 ש\"ח\n",
+    "color": "",
+    "address": "נהרדעא 18",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א,ב,ד,ה",
+        "from": "19:00",
+        "to": "22:00"
+      },
+      {
+        "days": "ג",
+        "from": "17:00",
+        "to": "19:00"
+      },
+      {
+        "days": "ו",
+        "from": "9:00",
+        "to": "שעה וחצי לפני שבת, מוצ\"ש בתאום"
+      }
+    ],
+    "email": "Botikperlina@gmail.com",
+    "phone": "054-8452586",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "http://www.botikperlina.com/",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 124,
+    "name": "leybedik",
+    "value": "לייבעדיק",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      45
+    ],
+    "slogan": "נגינה. נשמה. חוויה",
+    "description": "חווית נגינה מעצימה ומרתקת.\nכלים שעושים טוב לנשמה.\nבואו לחוות ולנגן בשיטת לייבעדיק.",
+    "color": "",
+    "address": "שדרות האמוראים 15",
+    "hours": null,
+    "email": "leybedik.rbs@gmail.com",
+    "phone": "08.801.7776",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "http://leybedik.co.il/",
     "showInHomePage": null,
     "hideBusiness": null
   }

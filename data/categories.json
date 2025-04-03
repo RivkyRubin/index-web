@@ -8,7 +8,7 @@
   { "id": 7, "value": "מתנות ופרחים", "name": "gifts", "size": 2 ,"usedCategory":false },
   { "id": 8, "value": "תכשיטים ושעונים", "name": "jewelry" },
   { "id": 9, "value": "איפור", "name": "makeup" ,"details":"מאפרת"},
-  { "id": 10, "value": "משרד", "name": "office" , "details":"רואת חשבון, שירותי משרד"},
+  { "id": 10, "value": "שירותי משרד וחשבונאות", "name": "office" , "details":"רואת חשבון, שירותי משרד, הנהלת חשבונות, ראיית חשבון, ייעוץ מס, מזכירות, מזכירה"},
   { "id": 11, "value": "פארם", "name": "pharm" },
   { "id": 12, "value": "צלמים", "name": "photographer" ,"details":"צלמת"},
   { "id": 13, "value": "מזון מהיר", "name": "fast food", "size": 3 ,"usedCategory":true,"details":"פיצה, פלאפל, שווארמה, אוכל" },
@@ -43,5 +43,6 @@
   { "id": 42, "value": "שונות", "name": "other" ,"usedCategory":false },
   { "id": 43, "value": "מספרה", "name": "mispara" ,"usedCategory":false,"details":"תספורת" },
   { "id": 44, "value": "גרפיקה ואומנות", "name": "omanut" ,"usedCategory":false,"details":"תלת מימד, גרפיקאית, צייר, ציירת, עורכת" }
+,  { "id": 45, "value": "חוגים וקורסים", "name": "courses" ,"usedCategory":false,"details":"חוג ציור, חוג מחול" }
 
 ]
