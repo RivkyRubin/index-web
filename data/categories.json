@@ -12,8 +12,8 @@
   { "id": 11, "value": "פארם", "name": "pharm" },
   { "id": 12, "value": "צלמים", "name": "photographer" ,"details":"צלמת"},
   { "id": 13, "value": "מזון מהיר", "name": "fast food", "size": 3 ,"usedCategory":true,"details":"פיצה, פלאפל, שווארמה, אוכל" },
-  { "id": 14, "value": "דפוס", "name": "print" },
-  { "id": 15, "value": "תפירה", "name": "sewing" },
+  { "id": 14, "value": "דפוס", "name": "print","details":"מדפסות, דיו, טונרים" },
+  { "id": 15, "value": "תפירה וסדקית", "name": "sewing","details":"כפתורים, חוטים, תופרת" },
   { "id": 16, "value": "הנעלה", "name": "shoes", "size": 3 ,"usedCategory":true,"details":"נעליים" },
   { "id": 17, "value": "משחקים וכלי כתיבה", "name": "toys", "size": 2 ,"usedCategory":true ,"details":"צעצועים, גן, תחפושות, ציוד למשרד, מכשירי כתיבה"},
   { "id": 18, "value": "פאניות", "name": "wigs","details":"פאנית, פאות" },
@@ -40,5 +40,8 @@
   { "id": 39, "value": "אופנת גברים", "name": "men", "size": 2 ,"usedCategory":false,"details":"בגדי גברים, חליפות" },
   { "id": 40, "value": "אופנת נשים", "name": "women", "size": 2 ,"usedCategory":false ,"details":"בגדי נשים, הלבשה תחתונה"},
   { "id": 41, "value": "אופנת ילדים", "name": "kids", "size": 2 ,"usedCategory":true ,"details":"בגדי ילדים" },
-  { "id": 42, "value": "שונות", "name": "other" ,"usedCategory":false }
+  { "id": 42, "value": "שונות", "name": "other" ,"usedCategory":false },
+  { "id": 43, "value": "מספרה", "name": "mispara" ,"usedCategory":false,"details":"תספורת" },
+  { "id": 44, "value": "גרפיקה ואומנות", "name": "omanut" ,"usedCategory":false,"details":"תלת מימד, גרפיקאית, צייר, ציירת, עורכת" }
+
 ]

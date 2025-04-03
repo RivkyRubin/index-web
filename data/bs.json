@@ -738,7 +738,7 @@
     "phone": "053-414-0122",
     "phone2": "",
     "whatsapp": "",
-    "website": "",
+    "website": "https://littlecrown.fashion/",
     "showInHomePage": null,
     "hideBusiness": null
   },
@@ -848,6 +848,11 @@
         "days": "א-ה",
         "from": "19:00",
         "to": "10:30"
+      },
+      {
+        "days": "ו",
+        "from": "בתאום",
+        "to": ""
       }
     ],
     "email": "P025719998@gmail.com",
@@ -1369,7 +1374,7 @@
         "to": "22:00"
       }
     ],
-    "email": "",
+    "email": "r025720994@gmail.com",
     "phone": "02-572-0994",
     "phone2": "",
     "whatsapp": "",
@@ -1679,6 +1684,11 @@
     "color": "",
     "address": "נהרדעא 18 א'",
     "hours": [
+      {
+        "days": "חמישי",
+        "from": "19:00",
+        "to": ""
+      },
       {
         "days": "ו",
         "from": "10:00",
@@ -3145,6 +3155,224 @@
     "hours": null,
     "email": "keshet8123@gmail.com",
     "phone": "058-7178123",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 116,
+    "name": "shnitzelist",
+    "value": "שניצליסט",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      30,
+      13
+    ],
+    "slogan": "חלה שניצל. מצופה שתתמכרו!",
+    "description": "",
+    "color": "",
+    "address": "שדרות האמוראים 22",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "11:00",
+        "to": "23:00 "
+      }
+    ],
+    "email": "",
+    "phone": "02-648-2933",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 117,
+    "name": "natihasapar",
+    "value": "נתי הספר",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      43
+    ],
+    "slogan": "",
+    "description": "התרחבנו בצוות מקצועי\nתורכם יטופל במהירות ובאיכות הגבוהה ביותר!",
+    "color": "",
+    "address": "רבא 2 בחניה",
+    "hours": [
+      {
+        "days": "א' בתיאום מראש",
+        "from": "",
+        "to": ""
+      },
+      {
+        "days": "ב-ה",
+        "from": "14:00",
+        "to": "21:00"
+      },
+      {
+        "days": "ו",
+        "from": "9:00",
+        "to": "שעתיים לפני כניסת השבת"
+      }
+    ],
+    "email": "",
+    "phone": "053-366-0344",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 118,
+    "name": "looking",
+    "value": "LOOKING",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      4
+    ],
+    "slogan": "לוקינג. איכות ראיה מתקדמת",
+    "description": "",
+    "color": "",
+    "address": "שדרות האמוראים 4",
+    "hours": [
+      {
+        "days": "א-ה בוקר",
+        "from": "10:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה ערב",
+        "from": "16:00",
+        "to": "21:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-6206623",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 119,
+    "name": "leloshem",
+    "value": "חנות ללא שם",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      23
+    ],
+    "slogan": "כי להיות זול לא צריך שם.",
+    "description": "חיבור קווים | מכירת פלאפונים | נגנים\nציוד נלווה | שירותי מעבדה",
+    "color": "",
+    "address": "אביי 11 מינוס 1",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "18:30",
+        "to": "21:00"
+      }
+    ],
+    "email": "m026667956@gmail.com",
+    "phone": "02-666-7956",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 120,
+    "name": "eichuthachut",
+    "value": "איכות החוט",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      15,
+      8
+    ],
+    "slogan": "על איכות לא מתפשרים",
+    "description": "אביזרי סדקית | תכשיטים | קשתות | אקססוריז",
+    "color": "",
+    "address": "רבא 2 מאחורי בזאר המציאות",
+    "hours": null,
+    "email": "",
+    "phone": "02-8025566",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 121,
+    "name": "suriklein",
+    "value": "שורי קליין",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      37
+    ],
+    "slogan": "טיפולי אפילציה, עיצוב וצביעת ג.",
+    "description": "בקליניקה של שורי קליין, אפילטורית מוסמכת, את יכולה להיות בטוחה שתאהבי לפגוש את עצמך במראה גם שנים קדימה.\nתכנון חכם, שרטוט מדויק ועיצוב מושלם.\nמוזמנת, קדימה!",
+    "color": "",
+    "address": "שדרות האמוראים 19",
+    "hours": null,
+    "email": "",
+    "phone": "054-8541600",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 122,
+    "name": "hendis",
+    "value": "HENDIS",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      7
+    ],
+    "slogan": "רגעים מרגשים מתחילים כאן",
+    "description": "פרחים חיים/משי | זרי אירוסין | זרי כלה | מתנות מעוצבות בשילוב פרלינים\nכלים לעריכת שולחן | כלי נוי | מוצרי אווירה | מתנות לידה | ועוד...",
+    "color": "",
+    "address": "נהרדעא 18",
+    "hours": [
+      {
+        "days": "א-ה בוקר",
+        "from": "11:00",
+        "to": "14:00"
+      },
+      {
+        "days": "א-ה ערב ",
+        "from": "20:00",
+        "to": "23:00 "
+      },
+      {
+        "days": "או בתיאום",
+        "from": "",
+        "to": ""
+      }
+    ],
+    "email": "v0533106516@gmail.com",
+    "phone": "0583266319",
     "phone2": "",
     "whatsapp": "",
     "website": "",
