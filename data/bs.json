@@ -2599,7 +2599,7 @@
     "categories": [
       13
     ],
-    "slogan": "",
+    "slogan": "פיצה, ציפס ועוד",
     "description": "",
     "color": "",
     "address": "שדרות האמוראים 61",
@@ -3443,6 +3443,35 @@
     "phone2": "",
     "whatsapp": "",
     "website": "http://leybedik.co.il/",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 125,
+    "name": "pitzale",
+    "value": "פיתצהלע",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      13
+    ],
+    "slogan": "פיצה, פלאפל ועוד",
+    "description": "מקום מרווח, מקומות ישיבה בשפע.\nפיצה | טוסטים | פלאפל | תוספות | סלטים | שקשוקה | סביח | אייס קפה",
+    "color": "",
+    "address": "שדרות האמוראים 64",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "10:00",
+        "to": "23:00"
+      }
+    ],
+    "email": "",
+    "phone": "02-53-77-999",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
     "showInHomePage": null,
     "hideBusiness": null
   }
