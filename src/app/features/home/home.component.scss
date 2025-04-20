@@ -1,7 +1,7 @@
 .first-section {
   position: relative;
   // height: 40vh;
-  padding: 5rem 15px;
+  padding: 7rem 15px;
   background-size: cover; /* Ensures full width */
   background-position: center center; /* Centers the image */
   // background-attachment: fixed; /* Enables parallax effect */
@@ -11,13 +11,34 @@
   * {
     color: #fff;
   }
+  .btn-link{
+    font-size:1.5rem
+  }
   .logo {
     font-size: 3rem;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
-  
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  .btn-lg{
+    font-size:2rem;
+    transition:all 0.3s ease-in;
+    &:hover{
+      transform:translateY(-3px);
+    }
+  }
+
+  .btn-link {
+    color: var(--color7) !important;
+    &:hover {
+      color: var(--color1) !important;
+    }
+  }
+
   .btn-primary {
     background-color: #fff;
     border-radius: 0px;
@@ -27,10 +48,22 @@
   }
 }
 
-
+.b-list {
+  flex-wrap: wrap;
+  gap: 1rem;
+    justify-content: center;
+  
+}
 .categories-section {
-    height: 75vh;
+  height: 890px;
+  .nav-btn{
+    font-size: 20px !important;
+    margin-right: 44px;
   }
+  @media (max-width: 768px) {
+    height:auto;
+  }
+}
 .second-section {
   position: relative;
   padding: 3rem;
@@ -44,4 +77,32 @@
   //          background-color:var(--color5);
   // z-index: -1
   //     }
+
+  .categories-section{
+    flex-shrink: 0;
+    width:var(--item-width);
+  }
+
+  .b-section{
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.ad1-box{
+  margin-top:3rem;
+  padding:1rem;
+  box-shadow: 0 0 10px -5px rgba(23, 45, 81, 0.51);
+width:var(--item-width);
+}
+
+
+::ng-deep{
+  app-categories-list-ui
+  {
+    .categories-list{
+      height: auto !important;
+    }
+  }
 }

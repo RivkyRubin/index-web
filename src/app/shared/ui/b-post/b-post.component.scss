@@ -1,37 +1,89 @@
+
 .item{
     background-color: var(--color7);
-    padding-bottom:2rem;
     text-align: center;
-    margin-bottom:1rem;
     box-shadow: 0 0 10px -5px rgba(23, 45, 81, 0.51);
     transition:all .3s ease-in;
-    &:hover{
-        background-color: #f3f3f3;
-        transform: translateY(-3px);
+    max-width: 300px !important;
+    width:var(--item-width);
+    overflow: hidden;
+
+
+    .slogan{
+        color:var(--gray3);
     }
-    .main-image{
+    h3{
+        margin-bottom:0px;
+    }
+    &:hover{
+        background-color: #fcfcfc;
+        // transform: translateY(-3px);
+        cursor: pointer;
+        .main-image{
+        transform: scale(1.05) rotate(2deg) !important;
+        }
+        .details-btn svg{
+            transform: scaleX(-1) translateX(5px);
+
+        }
+    }
+    .main-image-container{
+        width:var(--item-width);
+        height:var(--item-width);
+        overflow: hidden;
+
+         .main-image{
         // background-image:url('https://scontent.ftlv19-1.fna.fbcdn.net/v/t1.6435-9/151530774_3527897410655304_191568329395846382_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=SHWVeT3frNoQ7kNvgHi5XDu&_nc_oc=AdjRup2XVTBktB-L7q6y-M1d54H-FMuuEo-11NZzULFYBkgBBNMmPNNEgoVbrH1EfWL-fkyoKIWd3KxcKuZLwna6&_nc_zt=23&_nc_ht=scontent.ftlv19-1.fna&_nc_gid=AT97-prSnnwA5NKpnQK5toa&oh=00_AYDQk9pacv4Wq-Gntmn_Ncw2Vs3cvf5ghSj5yywCGCxj9w&oe=67D94CBA');
         width:100%;
         background-size: cover;
-        height: 250px;
+        height:100%;
         background-repeat: no-repeat;
         background-position: center center;
-        transition:all .3s;
+        transform:scale(1);
+        transition: all .3s ease-in;
     }
-    .logo{
+    }
+   
+    .logo-container{
+        border-bottom:1px solid #e4e4e4;
+        position:relative;
+ .logo{
         // background-image:url('https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png');
         width:100%;
-        background-size: auto 50px;
-                    height: 100px;
+        background-size: auto 70%;
+                    height: 70px;
         background-repeat: no-repeat;
         background-position: center center;   
         // background-color: #eaeaea;
-        border-bottom:1px solid #e4e4e4;
+        &.category-image{
+            filter:grayscale(0.9);
+        }
     }
+    }
+
+    
+   
     .category{
         text-align: center;
         color:var(--color3);
         font-size:small;
         text-decoration: underline;
+    }
+
+    .details-btn{
+        color:var(--color1) !important;
+        transition:all .3s ease-in;
+        &:hover{
+            svg{
+            color:var(--color6) !important;
+            }
+        }
+        svg{  
+        transition:all .3s ease-in;
+        width: 20px;
+        transform: scaleX(-1);
+
+        
+        }
     }
 }

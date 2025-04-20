@@ -1,0 +1,52 @@
+<div class="container "  [ngClass]="{'not-desktop':!isDesktopWidth()}" >
+    <h1 class="page-title">מבצעים ופרסום</h1>
+    <div class="display-mode text-center p-2">
+        <div class="mb-3 display-mode-item" [ngClass]="{ 'is-active':(isGallery())}">
+          <div class="text">גלריה</div> 
+                    <img src="icons/gallery.svg" width="60" (click)="isGallery.set(true)" />
+
+        </div>
+        <hr/>
+        <div class="display-mode-item" [ngClass]="{ 'is-active':(!isGallery())}">
+            <div class="text">מגזין</div>
+                    <img src="icons/magazine.svg" width="60"(click)="isGallery.set(false)" />
+
+        </div>
+    </div>
+    <div *ngIf="isGallery()" class="board row position-relative overflow-auto0"  infiniteScroll [infiniteScrollDistance]="2" (scrolled)="loadMore()"  >
+      <!-- <div *ngIf="isGallery()" class="board row position-relative overflow-auto0"  appScrollToTop [threshold]="100" (scrolled)="loadMore()"  > -->
+
+      <div class="column col-lg-4 col-md-6" *ngFor="let column of columns()">
+      <div class="item fade-up2 w-100" *ngFor="let item of column">
+        <article>
+          <div >
+            <app-full-screen-image [imageSrc]="imagesUrl() +item.b?.name+  '/pirsum.jpg'"></app-full-screen-image>
+            <!-- <img [src]="imagesUrl() +item.b?.name+  '/pirsum.jpg'" [alt]="item.b?.name" loading="lazy"> -->
+          </div>
+          <div class="item-footer  w-100" *ngIf="item.b?.hideBusiness!==true">
+            <input type="button" class="p-3 btn w-100" value="לדף העסק" (click)="navigateToB(item.bId)"/>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="!isGallery()" class="magazine-container1 d-flex1 flex-row">
+    <div *ngIf="isMobile()&&isPortrait(); else magazine" class="text-center">
+      סובב את המכשיר לרוחב לצפייה במגזין
+    </div>
+    <ng-template #magazine>
+      <div class="magazine-container">
+    <div class="magazine-wrapper"  >
+      <div *ngIf="!isDesktopWidth()">
+      <button *ngIf="!isDesktopWidth()" class="btn btn-link close-button magazine-close" (click)="this.isGallery.set(true)">
+        ✖
+      </button>
+    </div>
+
+    <app-flipbook [items]="items.value()"></app-flipbook>
+  </div></div>
+</ng-template>
+  </div>
+  
+</div>

@@ -1,19 +1,36 @@
 @if(b())
 {
-<div class="item w-100">
-    <!-- <div class="main-image" [ngStyle]="{'background-image': 'url(' +  imagesUrl() + b()!.name+  '/image.jpg)'}" ></div> -->
-    <!-- <div class="logo" [ngStyle]="{'background-image': 'url(' +  imagesUrl() + b()!.name+  '/logo.png)'}" ></div> -->
-   <div style="height: 300px; width:300px;" [ngStyle]="{'background-image': 'url(file:///C:/Users/HP/Downloads/lo.jpg)'}"></div>
-    <div class="b-details pt-3">
+<div class="item" (click)="navigateToB(b()!.id)" >
+  <div class="main-image-container">
+    <div class="main-image" 
+    [ngStyle]="{'background-image': 'url('+getImage+')'}"
+
+     ></div>
+  </div>
+    
+   
+    <div class="logo-container"> 
+         <div class="logo" 
+         [ngStyle]="{'background-image': 'url('+getLogo+')'}"
+         [ngClass]="{'category-image':b()?.hasLogo!=true}"
+         ></div>
+         <!-- [ngStyle]="{'background-image': 'url(' +  imagesUrl() + b()!.name+  '/logo.png)'}" -->
+
+    </div>
+    <div class="b-details pt-3 pb-2">
     <h3 class="name">{{b()?.value}}</h3>
     <!-- <div class="category">
       <span>{{b()!.categories[0]}}</span>
     </div> -->
-    <div class="details">
-      <span> {{b()!.description}} </span>
+    <div class="slogan">
+      <span> {{b()!.slogan}} </span>
     </div>
-    <div class="text-center">
-      <input type="button" class="btn btn-link color1" value="פרטי העסק" (click)="navigateToB(b()!.id)" />
+    <div class="text-center  ">
+      <button type="button" class="btn btn-link color1 text-decoration-none details-btn" (click)="navigateToB(b()!.id)" >פרטי העסק 
+        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+        </svg>
+      </button>
     </div>
   </div>
   </div>

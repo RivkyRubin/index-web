@@ -1,5 +1,23 @@
-<div class="container">
-    <h1 class="page-title">המגזין של ד'</h1>
-    <app-flipbook [items]="items.value()">
-</app-flipbook>
-</div>
+<div *ngIf="apiLoaded()" class="map-container">
+    <google-map height="100%" 
+                width="100%" 
+                [center]="center()" 
+                [zoom]="zoom()"
+                [options]="options">
+      <map-marker *ngFor="let marker of markers()"
+                 [position]="marker.position"
+                 [title]="marker.business.value"
+                 [icon]="marker.icon??''"
+                [label]="marker.business.hasLogo?'': marker.business.value"
+                 (mapClick)="openInfoWindow(mapMarker, marker.business)"
+                 #mapMarker="mapMarker">
+      </map-marker>
+      
+      <map-info-window>
+        <div class="info-window" *ngIf="selectedBusiness()">
+            <app-b-post [b]="selectedBusiness()!"></app-b-post>
+        </div>
+      </map-info-window>
+    </google-map>
+  </div>
+  <div *ngIf="!apiLoaded()">Loading Google Maps...</div>

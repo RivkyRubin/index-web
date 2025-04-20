@@ -1,0 +1,51 @@
+<div class="categories-list h-100 d-flex flex-column" [ngClass]="{'is-mobile':isMobile()}">
+  <!-- <div>
+    <input type="search"  (input)="search($event)" placeholder="חפש קטגוריה"/>
+  </div> -->
+  <div class="categories-header">
+    <div class="search-container position-relative" *ngIf="showSearch()">
+      <input
+        type="search"
+        class="form-control search-input"
+        (input)="search($event)"
+        placeholder="חפש קטגוריה"
+      />
+      <img src="icons/search-icon.png" class="search-icon" alt="Search" />
+      <button *ngIf="isMobile()" class="btn btn-link close-button" (click)="closeSidebar()">
+        ✖
+      </button>
+    </div>
+    <div
+    *ngIf="searchQuery()==null||searchQuery()==undefined||searchQuery()==''"
+      class="category-item d-flex align-items-center mt-1"
+      (click)="navigateToCategory(0)"
+      [ngClass]="{ 'is-active': selectedCategoryId() == 0 }"
+    > <img
+    src="icons/categories/0.svg"
+    width="40"
+    style="margin-left: 15px"
+  />
+      <span class="category-name">כל העסקים</span>
+    </div>
+  </div>
+  <div class="caegories-list flex-grow-1 overflow-auto">
+    @for (item of filteredCategories(); track item.id) {
+  <div
+    class="category-item d-flex align-items-center mt-1"
+    (click)="navigateToCategory(item.id)"
+    [ngClass]="{ 'is-active': selectedCategoryId() == item.id }"
+  >
+    <img
+      src="icons/categories/{{ item.id }}.svg"
+      width="40"
+      style="margin-left: 15px"
+    />
+    <span class="category-name">{{ item.value }}</span>
+  </div>
+  } @empty {
+  <span>לא נמצאו קטגוריות</span>
+  }
+  </div>
+
+  
+</div>

@@ -3,6 +3,7 @@ import { computed, inject, Injectable, resource, signal, Signal } from '@angular
 import { Category } from '../../shared/models/category.model';
 import { BPost } from '../../shared/models/b-post.model';
 import { environment } from '../../../environments/environment';
+import { MagazineItem } from '../../shared/models/magazine-item.model';
 
 @Injectable({
   providedIn: 'root'
@@ -10,12 +11,14 @@ import { environment } from '../../../environments/environment';
 export class DataService {
   categories = signal<Category[]>([]);
   bs = signal<BPost[]>([]);
+  magazineItems=signal<MagazineItem[]>([])
 
   http=inject(HttpClient);
   private jsonUrl = 'data/';
   constructor() {
     this.loadCategories();
     this.loadBs();
+    this.loadMagazineItems();
   
   }
 
@@ -24,6 +27,16 @@ export class DataService {
       const response = await fetch(environment.filesUrl+'data/categories.json');
       const data = await response.json();
       this.categories.set(data); // Store the categories in a signal
+    } catch (error) {
+      console.error('Error loading categories:', error);
+    }
+  }
+
+  private async loadMagazineItems() {
+    try {
+      const response = await fetch(environment.filesUrl+'data/magazine-items.json');
+      const data = await response.json();
+      this.magazineItems.set(data); // Store the categories in a signal
     } catch (error) {
       console.error('Error loading categories:', error);
     }

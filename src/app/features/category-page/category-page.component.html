@@ -1,0 +1,36 @@
+<div class="category-page container-fluid"  [ngClass]="{'open-sidebar':openSideBar()}">
+    <div class="category-content h-100 position-relative">
+      <!-- Sidebar with categories list -->
+      <aside class="sidebar">        
+     <app-categories-list-ui [categories]="categories()" [selectedCategoryId]="id()" (onSelect)="onSelect($event)" (onCloseSidebar)="onCloseSidebar()">
+     </app-categories-list-ui>
+      </aside>
+      <!-- Main category content -->
+      <main class="main-content p-md-3 position-relative" appScrollToTop [threshold]="100"  >
+        <header class="category-header pt-md-3">
+        <div class="d-flex justify-content-center">
+          <div *ngIf="isMobile()"  class="d-flex flex-row justify-content-between item-width">
+            <button *ngIf="category().id!=0" type="button" class="btn btn-link p-0 "(click)="navigateToAllCategories()">
+כל העסקים
+</button>
+
+            <button type="button" class="btn btn-link p-0 "(click)="openSideBar.set(true)">
+ חפש קטגוריה
+
+            </button>
+          </div>
+        </div>
+        <div class="category-image" >
+            <img src="icons/categories/{{category()?.id}}.svg" [alt]="category()?.name" />   
+             <h2 class="d-inline6.00....... category-name mb-3 pb-3">{{ category()?.value }}</h2>
+          </div>
+    </header>
+    <div  >
+        <router-outlet></router-outlet>
+
+    </div>
+      </main>
+    </div>
+  
+  </div>
+  

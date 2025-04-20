@@ -1,16 +1,23 @@
 <div>
-  <div class="first-section text-center" 
-  [ngStyle]="{ 
-    'background-image': 'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(\'images/home.jpg\')'  }"
-  > 
-    <div class="logo">רמהד'</div>
-    <h1>כל השכונה במקום אחד</h1>
-    <h2>עסקים, נדל"ן, ועוד </h2>
-    <input
-      type="button"
-      class="btn btn-primary  btn-lg"
-      value="מצא בקלות"
-    />
+
+  <div
+    class="first-section text-center"
+    [ngStyle]="{
+      'background-image':
+        'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(\'images/home.jpg\')'
+    }"
+  >  
+      <div class="logo">
+      <img src="images/logo-white.png" width="200px" />
+    </div>
+    <h1 class="style-5">רמה ד' אונליין</h1>
+    <h2>עסקים. נדלן. וכל מה שיש בשכונה</h2>
+    <a class="btn btn-primary btn-lg" routerLink="/category">כל העסקים</a>
+    <div class="mt-1">
+          <a class="btn btn-link"  [routerLink]="['/board']">מבצעים ופרסום</a>
+
+    </div>
+
 
     <!-- <input
       type="button"
@@ -21,57 +28,82 @@
   </div>
   <div class="second-section">
     <div class="container-md">
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="categories-section">
-            <div class="">
-            @if (categories.isLoading()) {
+      <div class="d-flex flex-row gap-1 flex-wrap1 justify-content-center b-section">
+        <div class="" >
+          <div class="categories-section mb-3">
+            <!-- <app-categories-box
+              [categories]="categories.value()"
+            ></app-categories-box> -->
+            <app-categories-list-ui [categories]="categories.value()" [showSearch]="false"  >
+            </app-categories-list-ui>
+            <div>
+            <a type="button" routerLink="/category" class="btn btn-link color1 text-decoration-none nav-btn" >  
+              לכל הקטגוריות
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+              </svg>
+            </a>
+       </div>
+            <!-- <div class="">
+              @if (categories.isLoading()) {
               <p>טוען...</p>
-              }
-              @for (item of categories.value(); track item.id) {
-              <div class="category-item d-flex  align-items-center mt-1">
-                <img src="icons/categories/{{item.name}}.svg" width="30" style="margin-left:15px" />
-                <span style="font-size: 22px;">{{item.value}}</span>
+              } @for (item of categories.value(); track item.id) {
+              <div class="category-item d-flex align-items-center mt-1">
+                <img
+                  src="icons/categories/{{ item.name }}.svg"
+                  width="30"
+                  style="margin-left: 15px"
+                />
+                <span style="font-size: 22px">{{ item.value }}</span>
               </div>
               } @empty {
               <li>There are no items.</li>
               }
-         </div>
-       
-          <app-categories-box [categories]="categories.value()"></app-categories-box>
-        </div>  
-       </div>
-        <div class="col-sm-9">
+            </div> -->
+            <!-- <app-categories-list-ui [categories]="categories.value()"></app-categories-list-ui> -->
+          </div>
+          
+        </div>
+        <div class="flex-grow-1">
           @if (bs.isLoading()) {
-            <p>טוען...</p>
-            }
-          <div class="row">
+          <p>טוען...</p>
+          }
+          <!-- <div class="row">
             @for (item of bs.value(); track item.id) {
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-6 col-lg-3">
               <app-b-post [b]="item"></app-b-post>
             </div>
             } @empty {
             <li>There are no items.</li>
             }
+          </div> -->
+          <div class="d-flex b-list">
+            @for (item of bs.value(); track item.id) {
+            <div >
+              <app-b-post [b]="item"></app-b-post>
+            </div>
+            } @empty {
+            <li>  </li>
+            }
           </div>
           <div class="text-center">
-            <input type="button" class="btn btn-primary" value="עסקים נוספים"/>
+            <a type="button" routerLink="/category" class="btn btn-link color1 text-decoration-none nav-btn" >  
+              לכל העסקים
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+              </svg>
+            </a>
           </div>
-        </div>
+          <div class="d-flex justify-content-center">
+          <div class="text-center  ad1-box">
+            <span>בעל עסק?</span>
+            <div>שלח לנו מייל  </div> <b>{{'service@rama-d.co.il'}}</b>
+           
+            <div>והעסק שלך בפנים בחינם!</div>
+            <div>בנוסף, חבילות פרסום שוות במיוחד!!!</div>
+          </div>
+        </div>     </div>
       </div>
-    </div>
-  </div>
-</div>
-<div class="gallery-section">
-  <div class="container-md text-center">
-    <div class="d-flex flex-row flex-wrap justify-content-center">
-      @for (item of galleryItems(); track item.name) {
-      <div>
-        <app-gallery-item [item]="item"></app-gallery-item>
-      </div>
-      } @empty {
-      <li>There are no items.</li>
-      }
     </div>
   </div>
 </div>

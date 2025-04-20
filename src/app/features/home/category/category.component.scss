@@ -12,3 +12,21 @@
     font-size: 5rem;
 }
 }
+
+.search-container{  
+          width:var(--item-width);
+}
+
+.b-list{
+    flex-wrap: wrap;
+    gap: 1rem;
+    @media (max-width: 768px) {
+        justify-content: center;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .search-section{
+        text-align: center;
+    }
+  }

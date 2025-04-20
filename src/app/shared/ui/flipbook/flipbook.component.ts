@@ -1,4 +1,4 @@
-import { JsonPipe, NgClass, NgFor, NgStyle } from '@angular/common';
+import { JsonPipe, NgClass, NgFor, NgIf, NgStyle } from '@angular/common';
 import { 
   Component, 
   ContentChildren, 
@@ -14,7 +14,8 @@ import {
   effect,
   signal,
   computed,
-  inject
+  inject,
+  Signal
 } from '@angular/core';
 import { PageFlip } from 'page-flip';
 import { MagazineItem, MagazinePage } from '../../models/magazine-item.model';
@@ -24,7 +25,7 @@ import { Router } from '@angular/router';
   selector: 'app-flipbook',
   templateUrl: './flipbook.component.html',
   styleUrls: ['./flipbook.component.scss'],
-  imports:[NgStyle,NgFor,JsonPipe,NgClass]
+  imports:[NgStyle,NgFor,NgIf,NgClass]
 })
 
 
@@ -32,17 +33,21 @@ import { Router } from '@angular/router';
 export class FlipbookComponent  implements AfterViewInit {
   @ViewChild('flipbookWrapper', { static: true }) flipbookWrapper!: ElementRef;
   @ViewChild('bookContainer', { static: true }) bookContainer!: ElementRef;
+  @ViewChild('magazine', { static: true }) magazine!: ElementRef;
+
   readonly items = input<MagazineItem[]>();
   readonly imagesUrl = signal<string>(environment.imagesUrl);
   private router = inject(Router);
 isZoom=signal<boolean>(false);
+currentPage = signal<number>(-1);
   private pageFlip!: PageFlip;
   constructor(){
     effect(() => {
       if (this.items()&&this.items()!.length > 0) {
   // Delay execution to ensure *ngFor has rendered
   setTimeout(() => {
-    this.showFlipbook(window.innerWidth - 50);
+    const magazineWidth = this.magazine.nativeElement.offsetWidth;
+    this.showFlipbook(magazineWidth);
   });      }
     });
   }
@@ -50,6 +55,13 @@ isZoom=signal<boolean>(false);
    
     //this.showFlipbook(window.innerWidth-50);
   }
+
+  pagesCount = computed(()=>this.pages().length);
+
+  get stepsArray(): number[] {
+    return Array.from({ length: (this.pagesCount()) / 2+1 }, (_, i) => this.pagesCount() - i * 2-1);
+  }
+  
 
   pages = computed(() => {
     const fullPages: MagazineItem[] = [];
@@ -120,18 +132,19 @@ if(this.items())
     }
 
   }
-    return arrangedPages;
+    return arrangedPages.reverse();
   });
 
   
   showFlipbook(width:number)
   {
     if(!this.isZoom())
-    width=Math.min(width*1.5,600);
+      width=width/2;
+    //width=Math.min(width*1.5,600*2);
  this.pageFlip = new PageFlip(this.flipbookWrapper.nativeElement, {
       width: width,
       height: width*1.5,
-      startPage:1,
+      startPage:this.pagesCount()+1,
       disableFlipByClick:true
     });
   
@@ -147,6 +160,14 @@ if(this.items())
   
     // Now, load into PageFlip
     this.pageFlip.loadFromHTML(fragment.querySelectorAll('.my-page'));
+
+    this.pageFlip.on('flip', (event) => {
+      console.log('Flipped to page:', event.data);
+      this.currentPage.set(event.data);
+    });
+    setTimeout(() => {
+      this.stepTo(this.pagesCount()-1);
+    }, 1000);
   }
 
   clicked()
@@ -155,23 +176,28 @@ if(this.items())
   }
   next()
   {
+    this.currentPage.update(page=>page+2);
     this.pageFlip.flipNext()
   }
 
   back()
-  {
+  {    
+    this.currentPage.update(page=>page-2);
     this.pageFlip.flipPrev()
   }
 
   stepTo(page:number)
   {
     this.pageFlip.flip(page);
+    this.currentPage.set(page);
   }
 
   navigateToB(id:number)
   {
 this.router.navigate(['/b',id]);
   }
+
+
 
   
 

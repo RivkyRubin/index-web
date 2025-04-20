@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, inject, signal } from '@angular/core';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { FooterComponent } from './core/footer/footer.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
-
+import {GoogleTagManagerService} from 'angular-google-tag-manager'
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,CommonModule,NavbarComponent,FooterComponent],
@@ -11,6 +11,18 @@ import { NavbarComponent } from './core/navbar/navbar.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'index-web';
+  title = 'רמה ד';
   isMobile=signal<boolean>(false);
+  router = inject(Router);
+  gtmService=inject(GoogleTagManagerService)
+  constructor( ) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.gtmService.pushTag({
+          event: 'pageView',
+          pagePath: event.urlAfterRedirects
+        });
+      }
+    });
+  }
 }

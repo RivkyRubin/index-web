@@ -1,0 +1,43 @@
+.categories-list{
+    &:hover{
+        .category-item{
+            filter:grayscale(0.8);
+            &:hover{
+                filter:grayscale(0);
+            }
+        }
+        
+
+    }
+}
+
+.search-container{
+    .close-button{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        text-decoration: none;
+    }
+}
+
+.category-item{
+
+    border-bottom:1px solid var(--color9);
+    &:hover{
+        cursor: pointer;
+    }
+
+    .category-name{
+        font-size: 20px;
+    }
+
+     &.is-active
+     {
+    .category-name{
+       
+            font-weight: bold;
+        }
+    }
+}
+
+

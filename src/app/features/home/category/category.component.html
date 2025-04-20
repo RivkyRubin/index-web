@@ -1,12 +1,4 @@
-<div class="container text-center category-page ">
-    <div *ngIf="category()">
-<div class="category-image">
-      <img src="icons/categories/{{category()?.name}}.svg" />    <h2 class="category-name mb-3 pb-3">{{ category()?.value }}</h2>
-
-    </div>
-    
-</div>
-
+<div class="container " >
 <!-- @if (bs.isLoading()) {
     <p>טוען...</p>
     }
@@ -19,13 +11,22 @@
     <li>There are no items.</li>
     }
   </div> -->
-  <div class="row">
-  @for (item of bs(); track item.id) {
-    <div class="col-sm-4">
+  <div class="search-section">
+      <div class="search-container position-relative mb-2">
+    <input type="search" class="form-control search-input" (input)="search($event)" placeholder="חפש עסק"/>
+    <img src="icons/search-icon.png" class="search-icon" alt="Search">
+</div>
+  </div>
+  <div class="d-flex b-list">
+         @for (item of filteredItems(); track item.id) {
+    <div class="">
       <app-b-post [b]="item"></app-b-post>
     </div>
     } @empty {
-    <span>אין נתונים להצגה</span>
+      <div class="w-100 text-center">
+            <span class="">אין נתונים להצגה</span>
+      </div>
     }
+ 
   </div>
 </div>

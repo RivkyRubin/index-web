@@ -4,8 +4,9 @@
 
 export const environment = {
   production: false,  
-   imagesUrl:'file:///C:/Users/HP/Documents/ramad/images/b/',
-   filesUrl:''
+   imagesUrl:'local-images/b/',
+   filesUrl:'',
+   googleMapsApiKey: 'AIzaSyDlOADRy5InjeYNL0S1O1vQJfteARSgAc8'
 };
 
 /*

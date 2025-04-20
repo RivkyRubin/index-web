@@ -1,0 +1,19 @@
+.d-flex {
+    height: 100%; // Ensures full height
+  }
+  
+  .sidebar {
+    width: 300px; // Adjust width as needed
+    max-height: 100vh; // Limits sidebar height to the viewport
+    overflow-y: auto; // Enables scrolling
+    background: #f8f9fa; // Optional background color
+    border-right: 1px solid #ddd; // Optional border
+  p{
+    padding:50px 0px;
+  }
+}
+  
+  .content {
+    flex-grow: 1;
+  }
+  

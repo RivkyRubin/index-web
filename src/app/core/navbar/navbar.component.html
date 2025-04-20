@@ -1,33 +1,46 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" [ngClass]="{ 'absolute-navbar': isHomePage() }">
+<nav class="navbar navbar-expand-lg navbar-light bg-white"  [ngClass]="{ 'mobile-navbar': isMobile(),'transparent-navbar': isHomePage() }">
     <div class="container-fluid">
       <!-- Logo -->
       <a class="navbar-brand" href="/home">
-        <!-- <img src="logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> -->
-        רמה ד
+        
+        <img     [src]="isHomePage() ? 'images/logo-white.png' : 'images/logo.png'" 
+        alt="Logo" width="100" class="d-inline-block align-text-top">
       </a>
-  
+
       <!-- Navbar Toggle for Mobile View -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" #navbarToggler type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
   
       <!-- Navbar Menu -->
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" #navbarNav id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
+          <li class="nav-item" (click)="onMenuItemClicked()">
             <a class="nav-link active" aria-current="page" href="#">בית</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/bs']"
+          <li class="nav-item"  (click)="onMenuItemClicked()">
+            <a class="nav-link" [routerLink]="['/category']"
             [routerLinkActive]="['is-active']" href="#">עסקים</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink]="['/magazine']"
-            [routerLinkActive]="['is-active']" href="#">מגזין</a>
+          <!-- <li class="nav-item"  (click)="onMenuItemClicked()">
+            <a class="nav-link" [routerLink]="['/about']"
+            [routerLinkActive]="['is-active']" href="#">אודות</a>
+          </li> -->
+          <li class="nav-item"  (click)="onMenuItemClicked()">
+            <a class="nav-link" [routerLink]="['/nadlan']"
+            [routerLinkActive]="['is-active']" href="#">בקרוב</a>
           </li>
+          <li class="nav-item"  (click)="onMenuItemClicked()">
+            <a class=" btn special-link" [routerLink]="['/board']"
+            [routerLinkActive]="['is-active']" href="#">מבצעים ופרסום</a>
+          </li> 
 
         </ul>
+         
       </div>
+       <!-- <div class="alert-message">
+    האתר בהרצה
+  </div> -->
     </div>
   </nav>
   

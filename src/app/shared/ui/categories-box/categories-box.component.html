@@ -1,4 +1,13 @@
-<div class="categories-box">
+<div class="categories-box h-100 d-flex flex-column">
+   <div class="text-center pt-2">
+    <a type="button" routerLink="/category" class="btn btn-link color1 text-decoration-none nav-btn" >  
+      לכל הקטגוריות
+      <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path>
+      </svg>
+    </a>
+  </div> 
+<div class="categories-items">
   <div
     *ngFor="let category of positionedCategories"
     class="category"
@@ -8,7 +17,9 @@
   >
     <span class="category-name">{{ category.value }}</span>
     <div class="category-image">
-      <img src="icons/categories/{{category.name}}.svg" />
+      <img src="icons/categories/{{category.id}}.svg" />
     </div>
   </div>
 </div>
+</div>
+

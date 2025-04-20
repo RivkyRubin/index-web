@@ -1,0 +1,49 @@
+<div class="image-gallery">
+    <div *ngFor="let image of images()" class="image-container position-relative">
+      <img 
+        [src]="image?.url" 
+        [alt]="image.alt" 
+        (click)="openFullScreen(image)"
+        class="thumbnail"
+      />
+      <img src="icons/full-screen.svg" width="100px" class="full-screen-icon"/>
+    </div>
+
+    <!-- Full Screen Overlay -->
+    <div 
+      *ngIf="fullScreenImage" 
+      class="fullscreen-overlay" 
+      (click)="closeFullScreen()"
+    >
+      <!-- Navigation and Image Container -->
+      <div class="fullscreen-content" (click)="$event.stopPropagation()">
+        <!-- Previous Arrow -->
+        <button 
+          *ngIf="images.length > 1" 
+          class="nav-arrow left-arrow" 
+          (click)="navigatePrevious($event)"
+        >
+          &#10094;
+        </button>
+
+        <!-- Full Screen Image -->
+        <img 
+          [src]="fullScreenImage?.url" 
+          [alt]="fullScreenImage?.alt" 
+          class="fullscreen-image"
+        />
+
+        <!-- Next Arrow -->
+        <button 
+          *ngIf="images.length > 1" 
+          class="nav-arrow right-arrow" 
+          (click)="navigateNext($event)"
+        >
+          &#10095;
+        </button>
+
+        <!-- Close Button -->
+        <button class="close-btn" (click)="closeFullScreen()">×</button>
+      </div>
+    </div>
+  </div>

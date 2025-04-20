@@ -7,6 +7,11 @@
     // background-attachment: fixed; /* Enables parallax effect */
     background-repeat: no-repeat;
     width: 100vw;
+    height: 40vh;
+    justify-content: center;
+    display: flex
+;
+    flex-direction: column;
     * {
       color: #fff;
     }
@@ -28,7 +33,6 @@
 
 
   .second-section{
-    height: 50vh;
     text-align: center;
   }
   ::ng-deep{
@@ -40,3 +44,52 @@
   .soon{
     font-size: 7rem;
   }
+
+  .frame{
+    border:3px solid var(--color7);
+    box-shadow: 0 0 32px -5px rgba(109, 109, 109, 0.51);
+    margin-bottom:3rem;
+    background-color:var(--color7);
+    border-radius: 10px;
+
+  }
+
+  .display-mode{  
+    box-shadow: 0 0 32px -5px rgba(23, 45, 81, 0.51);
+z-index: 1;
+  position:absolute;
+  left:-3px;
+  top:50%;
+  transform:translateY(-50%);
+  background-color: var(--color7);
+  border-radius: 0 20px 20px 0;
+  img{
+      &.is-active{
+          filter:grayscale(0);
+      }
+  }
+}
+
+
+@media (max-width: 767px) {
+  h1 {
+    font-size:2rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+
+  .soon{
+    font-size: 4rem;
+  }
+
+  .display-3{
+    font-size: 2rem;
+  }
+
+  .gallery-or-magazine{
+    padding:3rem;
+    text-align: right;
+  }
+
+}

@@ -3,7 +3,9 @@ export interface Category {
     name: string;
     value:string;
     parentId?: number | null;
-    size?:number//like 1,2,3,4
+    size?:number;//like 1,2,3,4
+    usedCategory?:boolean;
+    details?:string
   }
   
   export interface PositionedCategory extends Category {

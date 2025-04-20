@@ -1,39 +1,113 @@
-.item{
-    padding-bottom:2rem;
-    text-align: center;
-    margin-bottom:1rem;
-    .item-content{
-        height: 60vh;
+.item {
+  padding-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  .name {
+    font-size: 3rem;
+    @media (max-width: 768px) {
+      font-size:2rem;
+    }
+  }
+  .slogan {
+    transform: translateY(-19px);
+    color: var(--gray3);
+    font-size: 1.5rem;
+    @media (max-width: 768px) {
+      font-size:1rem;
+    }
+  }
+  .description-text {
+    white-space: pre-line;
+    margin-bottom: 3rem;
+    display: inline-block;
+  }
+  .item-content {
+    // min-height: 60vh;
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
     margin-top: -167px;
-    box-shadow: 0 0 32px -5px rgba(23, 45, 81, .51);
+    box-shadow: 0 0 32px -5px rgba(23, 45, 81, 0.51);
+    @media (max-width: 768px) {
+      margin-top: -230px;
     }
-    &:hover{
+    > .row {
+      min-height: 60vh;
     }
-    .main-image{
-        width:100%;
-        background-size: cover;
-        height: 40vh;
-        background-repeat: no-repeat;
-        background-position: center center;
-        transition:all .3s;
+  }
+  &:hover {
+  }
+
+  .logo-wrap {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    .logo {
+      // background-image:url('https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png');
+      width: 95%;
+      background-size: 100% auto;
+      height: 100px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      // background-color: #eaeaea;
+      &.category-image {
+        filter: grayscale(0.9);
+        background-size: contain;
+        transition: filter 0.3s ease-in;
+        &:hover {
+          filter: grayscale(0);
+        }
+      }
     }
-    .logo{
-        // background-image:url('https://www.kidichic.co.il/wp-content/uploads/2023/09/MLNG-logo_horizontally-copy.pdf-1-1-01-01.png');
-        width:100%;
-        background-size: auto 50px;
-                    height: 100px;
-        background-repeat: no-repeat;
-        background-position: center center;   
-        // background-color: #eaeaea;
-        border-bottom:1px solid #e4e4e4;
+  }
+  .main-image {
+    width: 100%;
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    // transition:all .3s;
+    text-align: right;
+    padding: 10px;
+    a {
+      background-color: #ffffff80 !important;
+      color: var(--gray6) !important;
+      text-decoration: underline;
     }
-    .category{
-        text-align: center;
-        color:var(--color3);
-        font-size:small;
-        text-decoration: underline;
+  }
+
+  .category {
+    text-align: center;
+    color: var(--color3);
+    font-size: small;
+    text-decoration: underline;
+  }
+
+  .item-description {
+    background-color: var(--color10);
+    display: flex;
+    .description-content {
+      flex: 1 auto;
+    }
+    .description-footer {
+      border-top: 1px solid var(--color9);
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
+.ad-item1{
+  position: absolute;
+    left: 58px;
+    top: 19%;
+    width: 500px;
+    border: 10px solid var(--color7);
+    margin:0 auto;
+    @media (max-width: 1830px) {
+      position:static;
+
+      width: 300px;
     }
 }
