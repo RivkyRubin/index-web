@@ -89,7 +89,7 @@
     "hasImage": true,
     "hasBigImage": true,
     "categories": [
-      9
+      29
     ],
     "slogan": "מאסטרית באיפור וסירוק כלות",
     "description": "אני הודיה אביחצירא,\nמאסטרית באיפור וסירוק,\nמגשימה חלומות לכלות\nועוזרת להן להיראות\nיפות ומושלמות\nבדיוק כמו שהן אוהבות,\nעם איפור ותסרוקת\nעמידים לאורך כל היום.\n\nהקסם הזה קורה\nבאמצעות שיטה ייחודית שפיתחתי,\nשמשלבת את הטעם האישי של הכלה,\nיחס אישי, התאמה מדויקת\nלסגנון ולמבנה הפנים,\nמקצוענות מוכחת וטאצ' עדכני.",
@@ -238,7 +238,7 @@
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
-      9
+      29
     ],
     "slogan": "אומנית האיפור",
     "description": "איפור כלות, ערב, אופנה, סדנאות",
@@ -496,7 +496,7 @@
     "hasBigImage": null,
     "categories": [
       18,
-      9
+      29
     ],
     "slogan": "פאנית בוטיק",
     "description": "מכירה, עיצוב, סירוק, צבע, איפור",
@@ -2599,7 +2599,7 @@
     "categories": [
       13
     ],
-    "slogan": "פיצה, ציפס ועוד",
+    "slogan": "איטליני - פיצה, ציפס ועוד",
     "description": "",
     "color": "",
     "address": "שדרות האמוראים 61",
@@ -2629,7 +2629,7 @@
       23
     ],
     "slogan": "חנות אביזרים לטלפונים סלולריים בבית שמש",
-    "description": "חנות הסלולר של בית שמש!\n ביוטיק תוכלו למצוא את המגוון הרחב ביותר של טלפונים כשרים, אביזרי סלולר, גיימבוים, מצלמות וציוד הקפי מעבדת תיקונים מקצועית במקום\nמוזמנים ליהנות משירות vip ומיחס אישי",
+    "description": "חנות הסלולר של בית שמש!\n ב\"יוטיק\" תוכלו למצוא את המגוון הרחב ביותר של טלפונים כשרים, אביזרי סלולר, גיימבוים, מצלמות וציוד הקפי מעבדת תיקונים מקצועית במקום\nמוזמנים ליהנות משירות vip ומיחס אישי",
     "color": "",
     "address": "שדרות האמוראים 65",
     "hours": [
@@ -2728,7 +2728,7 @@
     "hasBigImage": null,
     "categories": [
       37,
-      9
+      29
     ],
     "slogan": "לטפח יופי מוקפד. בלזה",
     "description": "איפור מקצועי. קורסים לאיפור אישי. מכירת מוצרי איפור. אפילציה ושעוות. הרמת ריסים",
@@ -3531,6 +3531,321 @@
     ],
     "email": "a086902030@gmail.com",
     "phone": "02-628-5592",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 128,
+    "name": "unique",
+    "value": "יוניק",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      40
+    ],
+    "slogan": "הלבשה אישית",
+    "description": "חנות להלבשה תחתונה עם מגוון רחב של דגמים והתמחות במידות גדולות התאמה מדויקת ותיקונים במקום לפי הצורך",
+    "color": "",
+    "address": "שדרות האמוראים 32",
+    "hours": [
+      {
+        "days": "א-ג",
+        "from": "10:30",
+        "to": "13:30"
+      },
+      {
+        "days": "א-ה ערב ",
+        "from": "19:30",
+        "to": "22:15"
+      }
+    ],
+    "email": "",
+    "phone": "054-200-8642",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 129,
+    "name": "sarishtern",
+    "value": "שרי שטרן",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      10
+    ],
+    "slogan": "מיקוד להצלחה תעסוקתית",
+    "description": "נעים מאד, שרי שטרן, מקדמת נשים ובנות להצלחה והנאה בתעסוקה מותאמת כישורים ומספקת.\nמתן שירותי יעוץ תעסוקתי, קידום תעסוקתי לנשים ובנות\nיעוץ לבחירת מקצוע לבנות י\"ב, בנית תהליכי קידום לנשים עובדות, מיקוד וקידום לשינוי תעסוקתי.\n",
+    "color": "",
+    "address": "רבינא 11",
+    "hours": null,
+    "email": "kidum136@gmail.com",
+    "phone": "0504-183-482",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 130,
+    "name": "studioneshima",
+    "value": "סטודיו נשימה",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      33
+    ],
+    "slogan": "נשימה. תנועה. אנרגיה.",
+    "description": "סטודיו ליוגה וכושר\nמרגלית ויידר, מאמנת כושר ומדריכת יוגה מומחית בשיקום רצפת אגן והרגלי יציבה מנטורית לאורח חיים בריא\nבליווי אישי ומקצועי לשיקום רצפת אגן, היפרדות בטנית , צניחת רחם, סמפיזיוליזיס והתמודדויות שונות ברצפת האגן.",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "",
+    "phone": "0583-200-980",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 131,
+    "name": "araspaka",
+    "value": "א.ר. אספקה תכנית",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      48
+    ],
+    "slogan": "סיטונאי - חנויות - קבלנים",
+    "description": "מכירת כלי עבודה לקבלנים, חנויות ופרטיים\nמחירים הכי זולים! מהחברות מילוואקי, בוש, מקיטה.\nהתאמה מדוייקת.",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "",
+    "phone": "053-4198765",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 132,
+    "name": "nechamavales",
+    "value": "נחמה וולס",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      29
+    ],
+    "slogan": "חתומה על חווית איפור",
+    "description": "מאפרת כלות וערב מקצועית\n\nאשמח לאפר אותך, נחמה",
+    "color": "",
+    "address": "רב חנן 16",
+    "hours": null,
+    "email": "nechama100482@gmail.com",
+    "phone": "053-4100-482",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 133,
+    "name": "yudleizerovitz",
+    "value": "ליזרוביץ ייעוץ מס",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      10
+    ],
+    "slogan": "הנהלת חשבונות | ייעוץ מס | החזרי מס",
+    "description": "ליווי פננסי מקיף לעסק , פתיחת תיקים, דוחות שנתיים , הצהרת הון ,החזרי מס.",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "yl0533199419@gmail.com",
+    "phone": "0533-199-419",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 134,
+    "name": "foreverneardea",
+    "value": "פוראוור - נהרדעא",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      51
+    ],
+    "slogan": "מכירת מוצרי פוראוור",
+    "description": "",
+    "color": "",
+    "address": "נהרדעא 17",
+    "hours": null,
+    "email": null,
+    "phone": "052-7660226",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 135,
+    "name": "standup",
+    "value": "STANDUP",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      10
+    ],
+    "slogan": "מותג בהופעה מנצחת",
+    "description": "שילת ועקנין - בעלת סטודיו סטנדאפ למיתוג, פרסום ואסטרטגיה שיווקית. אני מתמחה בעיצוב גרפי שיוצר הופעה מנצחת וכובשת במה לעסקים.\nהתשוקה שלי היא לפצח אתגרים יצירתיים ולהביא תוצאות חדשניות ופורצות דרך. המטרה שלי לייצר את ה\"רעש\" שיבדל את העסק שלך מהמתחרים ויגרום לו לבלוט.\nמוזמנים להתרשם מתיק העבודות שלי בקישור.",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "shilat418@gmail.com",
+    "phone": "0504-121-202",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://hafsakatad.co.il/author/shilat418gmail-com/",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 136,
+    "name": "malkystern",
+    "value": "מלכי שטרן",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      12
+    ],
+    "slogan": "צילומי ילדים",
+    "description": "צילומי ניו בורן ומשפחה, עם מלא סבלנות ואהבה:)\nקורסים מקצועיים בצילום ועיבוד תמונות\n",
+    "color": "",
+    "address": "רב עולא 12",
+    "hours": null,
+    "email": "MALKYS5584@GMAIL.COM",
+    "phone": "0533-145-584",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://6564e22ab9e6b.site123.me/",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 137,
+    "name": "chayarizel",
+    "value": "חיה ריזל",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [44],
+    "slogan": "חיה בסרט שלכם",
+    "description": "הפקות וידאו, סרטוני תדמית ופרסום לעסקים,קליפים משפחתיים ובת מצוות, תיעוד, ועוד.",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "c0527664439@gmail.com",
+    "phone": "052-766-4439",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 138,
+    "name": "mirielkin",
+    "value": "מירי אלקין הפקות",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      36,
+      10
+    ],
+    "slogan": "כנסי מכירות | ימי גיבוש לצוות | כנסי שימור לקוחות",
+    "description": "מנהלת ימי הפקה לעסקים. \nכל פרויקט הוא עולם מלא. \nעם תכנון, בנייה והתאמת סט ספקים מדויק עבורו. \nצרו קשר עכשיו לבחירת חבילת ההפקה.\n",
+    "color": "",
+    "address": "מר עוקבא",
+    "hours": null,
+    "email": "m@mirielkin.co.il",
+    "phone": "0533-133-329",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 139,
+    "name": "dinavertheimer",
+    "value": "דינה ורטהיימר ",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      10
+    ],
+    "slogan": "רואת חשבון",
+    "description": "דוחות שנתיים, שכר, הנהלת חשבונות, הצהרות הון וביקורת",
+    "color": "",
+    "address": "שדרות האמוראים 48",
+    "hours": null,
+    "email": "",
+    "phone": "052-716-1225",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "dwcpa3131@gmail.com",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 140,
+    "name": "selularyashir",
+    "value": "סלולר ישיר",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      23
+    ],
+    "slogan": "סלולר עד הבית",
+    "description": "מוקד ההזמנות של בית שמש\nמשלוח עד הבית עוד באותו היום\n",
+    "color": "",
+    "address": "",
+    "hours": [
+      {
+        "days": "א-ה",
+        "from": "09:00",
+        "to": "21:00"
+      }
+    ],
+    "email": "",
+    "phone": "0722-350-450",
     "phone2": "",
     "whatsapp": "",
     "website": "",
