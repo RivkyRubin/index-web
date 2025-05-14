@@ -322,14 +322,14 @@
       19
     ],
     "slogan": "תמיד בראש שלך",
-    "description": "מגוון כיסויי ראש ומשי אמיתי, בנדנות, מרובעות, לונגים, בסיסים, מבחר גדול בטעם שלך",
+    "description": "מגוון כיסויי ראש ומשי אמיתי, בנדנות, מרובעות, לונגים, בסיסים, מבחר גדול בטעם שלך.\nשירות קשירות וקורסים במקום.\n\nמשלוחים בבית שמש ללא תשלום!",
     "color": "",
     "address": "רב זירא 3",
     "hours": [
       {
         "days": "א-ה",
         "from": "10:30 ",
-        "to": "12:30"
+        "to": "13:30"
       },
       {
         "days": "א-ה",
@@ -345,7 +345,7 @@
     "email": "nd7179308@gmail.com",
     "phone": "",
     "phone2": "",
-    "whatsapp": "",
+    "whatsapp": "0552851622",
     "website": "",
     "showInHomePage": null,
     "hideBusiness": null
@@ -975,7 +975,7 @@
   {
     "id": 33,
     "name": "bronza",
-    "value": "BRONZA",
+    "value": "BRONZA - ברונזה ",
     "hasLogo": null,
     "hasImage": null,
     "hasBigImage": null,
@@ -3701,7 +3701,7 @@
     "color": "",
     "address": "נהרדעא 17",
     "hours": null,
-    "email": null,
+    "email": "",
     "phone": "052-7660226",
     "phone2": "",
     "whatsapp": "",
@@ -3737,8 +3737,8 @@
     "name": "malkystern",
     "value": "מלכי שטרן",
     "hasLogo": true,
-    "hasImage": null,
-    "hasBigImage": null,
+    "hasImage": true,
+    "hasBigImage": true,
     "categories": [
       12
     ],
@@ -3762,7 +3762,9 @@
     "hasLogo": true,
     "hasImage": true,
     "hasBigImage": true,
-    "categories": [44],
+    "categories": [
+      44
+    ],
     "slogan": "חיה בסרט שלכם",
     "description": "הפקות וידאו, סרטוני תדמית ופרסום לעסקים,קליפים משפחתיים ובת מצוות, תיעוד, ועוד.",
     "color": "",
@@ -3815,11 +3817,11 @@
     "color": "",
     "address": "שדרות האמוראים 48",
     "hours": null,
-    "email": "",
+    "email": "dwcpa3131@gmail.com",
     "phone": "052-716-1225",
     "phone2": "",
     "whatsapp": "",
-    "website": "dwcpa3131@gmail.com",
+    "website": "",
     "showInHomePage": null,
     "hideBusiness": null
   },
@@ -3846,6 +3848,209 @@
     ],
     "email": "",
     "phone": "0722-350-450",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 141,
+    "name": "miriamhorawitz",
+    "value": "מרים הורוביץ",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      44
+    ],
+    "slogan": "מעצבת גרפית",
+    "description": "ביצוע עבודות גרפיקה מיתוג עסקים, פרסום, אלבומים, ועוד.",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "",
+    "phone": "0533-177-894",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 142,
+    "name": "thelook",
+    "value": "THE LOOK",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      35
+    ],
+    "slogan": "חיפויים אקסלוסיביים",
+    "description": "בתיאום מראש",
+    "color": "",
+    "address": "מר עוקבא",
+    "hours": null,
+    "email": "y0534119033@gmail.com",
+    "phone": "053-411-9033",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 143,
+    "name": "miriamhazan",
+    "value": "MIRIAM HAZAN",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": true,
+    "categories": [
+      52
+    ],
+    "slogan": "מרים חזן - אדריכלות ועיצוב פנים",
+    "description": "אני אדריכלית בעלת תואר הנדסאי אדריכלות ומתעסקת בתכנון ועיצוב. \nאני עובדת במשרד מוביל בתכנון בתי חולים ובעלת ניסיון בתכנון מורכב, \nתוך הקפדה על יעילות, בטיחות וחדשנות. \nבנוסף, אני מתעסקת עם פרויקטים פרטיים מגוונים, כולל בתי כנסת, בתים פרטיים, הרחבות דיור,עיצוב מטבחים ונגרות. \n\nהמוטו שלי בעבודה הוא ליצור עבור כל לקוח מרחב העונה על כל צרכיו ואף עולה על ציפיותיו. אני עושה זאת באמצעות השקעה רבה, מסירות ותשומת לב לפרטים הקטנים ביותר.\n\n",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "m0527141195@gmail.com",
+    "phone": "052-714-1195",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 144,
+    "name": "foreverzira",
+    "value": "אלוורה - פוראוור",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      51
+    ],
+    "slogan": "מוצרי בריאות וטיפוח",
+    "description": "משלוחים חינם",
+    "color": "",
+    "address": "רב זירא 3 דירה 7",
+    "hours": null,
+    "email": "tzipi313@gmail.com",
+    "phone": "052-7113212",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 145,
+    "name": "prili",
+    "value": "פרילי עיצובי פירות",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      36
+    ],
+    "slogan": "עיצוב בטעם שלך",
+    "description": "מגשי פירות מעוצבים, ברים לאירועים, שייקים וגילופים",
+    "color": "",
+    "address": "",
+    "hours": null,
+    "email": "",
+    "phone": "058-323-9424",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://drive.google.com/file/d/1a1OR0Why1aqfhAr0P-uBh9WcCJ02T4d-/view?usp=drivesdk",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 146,
+    "name": "mercazshemesh",
+    "value": "מרכז שמש, בית לניתוח התנהגות",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      46,
+      45
+    ],
+    "slogan": "לזרוע כוכב של אור וגם לקצור",
+    "description": "קורסים הרצאות וחומרי למידה דיגיטליים ומקצועיים להקנייה וביסוס מיומנויות במגוון נושאים, \nהתמחות לילדים על הרצף והתפתחות תקינה.\nמתאים למטפלים, הורים, התמחויות, צוותים חינוכיים וימי הערכות מקצועיים, הרוצים לתת שמש ואור, \nלקדם לטפל באומנות ולזרוע כוכבים בעיניהם.",
+    "color": "",
+    "address": "רבינא ",
+    "hours": null,
+    "email": "behavior5632@gmail.com",
+    "phone": "054-849-5559",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "https://fe611a7d8cc4.godaddysites.com/",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 147,
+    "name": "ivales",
+    "value": "i.vales / איטי ולס",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      45,
+      10
+    ],
+    "slogan": "הדרך לקורסים והשפעה",
+    "description": "ליווי וייעוץ לבעלות קורסים וסדנאות",
+    "color": "",
+    "address": "שדרות האמוראים 70",
+    "hours": null,
+    "email": "i.vales@gmail.com",
+    "phone": "0533-121-471 ",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 148,
+    "name": "donut",
+    "value": "DONUT",
+    "hasLogo": null,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      27,
+      51
+    ],
+    "slogan": "המרכז למוצרי אפיה",
+    "description": "מבחר ענק של מוצרי אפיה\nקצפות, קרמים, שוקולד, מליות וקישוטים ---\nבמחירים הכי טובים:)",
+    "color": "",
+    "address": "שדרות האמוראים 18 קומה 1",
+    "hours": [
+      {
+        "days": "א-ד",
+        "from": "18:00",
+        "to": "21:00"
+      },
+      {
+        "days": "ה",
+        "from": "18:00",
+        "to": "22:30"
+      },
+      {
+        "days": "בנוסף ניתן לבוא בכל שעות היממה בתאום מראש",
+        "from": "",
+        "to": ""
+      }
+    ],
+    "email": "michalcohen00077@gmail.com",
+    "phone": "02-6541077",
     "phone2": "",
     "whatsapp": "",
     "website": "",

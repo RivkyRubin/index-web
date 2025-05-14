@@ -10,7 +10,7 @@
   { "id": 9, "value": "איפור", "name": "makeup", "details": "מאפרת", "categoryType": "Store","relatedCategories":[29] },
   { "id": 10, "value": "ייעוץ לעסק ושירותי משרד", "name": "office", "details": "רואת חשבון, שירותי משרד, הנהלת חשבונות, ראיית חשבון, ייעוץ מס, מזכירות, מזכירה", "categoryType": "Service" },
   { "id": 11, "value": "פארם ובתי מרקחת", "name": "pharm", "categoryType": "Store" },
-  { "id": 12, "value": "צלמים", "name": "photographer", "details": "צלמת", "categoryType": "Service" },
+  { "id": 12, "value": "צלמים", "name": "photographer", "details": "צלמת, צלם, צילום", "categoryType": "Service" },
   { "id": 13, "value": "מזון מהיר", "name": "fast food", "size": 3, "usedCategory": true, "details": "פיצה, פלאפל, שווארמה, אוכל", "categoryType": "Store" },
   { "id": 14, "value": "דפוס", "name": "print", "details": "מדפסות, דיו, טונרים", "categoryType": "Store" },
   { "id": 15, "value": "תפירה וסדקית", "name": "sewing", "details": "כפתורים, חוטים ", "categoryType": "Store" },
@@ -34,7 +34,7 @@
   { "id": 33, "value": "כושר", "name": "gym", "details": "מאמנת, מכון", "categoryType": "Service" },
   { "id": 34, "value": "רכב", "name": "car", "details": "השכרת", "categoryType": "Service" },
   { "id": 35, "value": "לבית", "name": "home", "size": 2, "usedCategory": true, "details": "טמבור", "categoryType": "Store" },
-  { "id": 36, "value": "אירועים", "name": "events", "size": 1, "details": "אולם, אולמות, פרחים, קייטרינג", "categoryType": "Service" },
+  { "id": 36, "value": "אירועים", "name": "events", "size": 1, "details": "אולם, אולמות, פרחים ,פירות, קייטרינג", "categoryType": "Service" },
   { "id": 37, "value": "קוסמטיקה וטיפוח", "name": "cosmetics", "details": "קרם, לייזר, הסרת שיער, אפילציה, גבות, שעווה", "categoryType": "Store" },
   { "id": 38, "value": "חד פעמי", "name": "disposable utensils", "categoryType": "Store" },
   { "id": 39, "value": "אופנת גברים", "name": "men", "size": 2, "usedCategory": false, "details": "בגדי גברים, חליפות", "categoryType": "Store" },
@@ -49,8 +49,8 @@
   { "id": 48, "value": "שירותים שונים", "name": "otherservices", "usedCategory": false, "categoryType": "Service" },
   { "id": 49, "value": "מרפאות ורופאים", "name": "health", "details":"קופת חולים, מכבי, מאוחדת, ","usedCategory": false, "categoryType": "Service" },
   { "id": 50, "value": "השכרה", "name": "rent", "details":"השכרת, השכרת רכב, השכרת שמלות","usedCategory": false, "categoryType": "Service" },
-  { "id": 51, "value": "מכירה ביתית", "name": "homesale", "details":"מכירה מהבית, פוראוור","usedCategory": false, "categoryType": "Store" }
-
+  { "id": 51, "value": "מכירה ביתית", "name": "homesale", "details":"מכירה מהבית, פוראוור","usedCategory": false, "categoryType": "Store" },
+  { "id": 52, "value": "עיצוב פנים ואדריכלות", "name": "homedesign", "details":"עיצוב לבית, מעצבת פנים","usedCategory": false, "categoryType": "Service" }
 
 
 ]
