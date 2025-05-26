@@ -4079,5 +4079,49 @@
     "website": "",
     "showInHomePage": null,
     "hideBusiness": null
+  },
+  {
+    "id": 150,
+    "name": "michalcohen",
+    "value": "מיכל כהן",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      47
+    ],
+    "slogan": "תופרת חלונות מבד",
+    "description": "תפירה מקצועית ומדויקת\nמקבלת את כל סוגי התיקונים\nכולל אוברלוק.",
+    "color": "",
+    "address": null,
+    "hours": null,
+    "email": "m0504100077@gmail.com",
+    "phone": "0504-1000-77",
+    "phone2": "02-6541077",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 151,
+    "name": "nechamirubin",
+    "value": "נחמי רובין",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [],
+    "slogan": " ",
+    "description": "",
+    "color": "",
+    "address": null,
+    "hours": null,
+    "email": "",
+    "phone": "",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": true
   }
 ]
