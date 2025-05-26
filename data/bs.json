@@ -114,7 +114,7 @@
     "categories": [
       10
     ],
-    "slogan": "רואת חשבון",
+    "slogan": "שירותי חשבונאות",
     "description": "דוחות כספיים | ניהול כספים | ביקורת פנים | הנה\"ח ושכר",
     "color": "FF5733",
     "address": "רב אשי 4",
@@ -1796,24 +1796,24 @@
   },
   {
     "id": 69,
-    "name": "rachelicohen",
-    "value": "RACHELI COHEN",
-    "hasLogo": null,
+    "name": "chaniisraelovitz",
+    "value": "חני ישראלוביץ",
+    "hasLogo": true,
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
-      18
+      10
     ],
-    "slogan": "הכי מבינה בשבילך",
-    "description": "ייצור פאות , תיקונים, שדרוגים, גוונים, סרוקים",
+    "slogan": "ייעוץ מס",
+    "description": "המשרד הוקם על ידי יועצת מס חני ישראלוביץ , אשר לה כ-10 שנות ניסיון בייעוץ מס, הנהלת חשבונות ומיסוי בינלאומי- \nהכרות עם אמנות המס ודיני המיסוי לעולים חדשים ותושבים חוזרים, ובפרט לאזרחי ארה\"ב.  \nהתמחות מיוחדת בהחזרי מס לשכירים והחזרי מס שבח . \nייעוץ המס והשרות השוטף ניתנים בשפות עברית ואנגלית.",
     "color": "",
-    "address": "אילפא 5 ",
+    "address": "נהרדעא 20",
     "hours": null,
-    "email": "",
-    "phone": "055-917-0013",
+    "email": "chanistaxes@gmail.com",
+    "phone": "058-3250290 ",
     "phone2": "",
     "whatsapp": "",
-    "website": "",
+    "website": "http://6730c5ea9dd6f.site123.me/",
     "showInHomePage": null,
     "hideBusiness": null
   },
@@ -4051,6 +4051,29 @@
     ],
     "email": "michalcohen00077@gmail.com",
     "phone": "02-6541077",
+    "phone2": "",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 149,
+    "name": "linda",
+    "value": "לינדא",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      44
+    ],
+    "slogan": "עיצוב לעסקים שממריאים",
+    "description": "עיצוב גרפי ומיתוג מקצועי לעסקים שרוצים לצמוח. \nבניית דפי נחיתה והקמת רשימות תפוצה.\n",
+    "color": "",
+    "address": "רבינא 11",
+    "hours": null,
+    "email": "hanafar058@gmail.com",
+    "phone": "058-3249-062",
     "phone2": "",
     "whatsapp": "",
     "website": "",
