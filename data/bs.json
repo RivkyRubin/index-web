@@ -273,7 +273,7 @@
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": true,
+    "showInHomePage": false,
     "hideBusiness": null
   },
   {
@@ -2620,16 +2620,16 @@
   },
   {
     "id": 96,
-    "name": "yutik",
-    "value": "יוטיק",
-    "hasLogo": null,
-    "hasImage": null,
-    "hasBigImage": null,
+    "name": "sruli",
+    "value": "שרולי",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
     "categories": [
       23
     ],
-    "slogan": "חנות אביזרים לטלפונים סלולריים בבית שמש",
-    "description": "חנות הסלולר של בית שמש!\n ב\"יוטיק\" תוכלו למצוא את המגוון הרחב ביותר של טלפונים כשרים, אביזרי סלולר, גיימבוים, מצלמות וציוד הקפי מעבדת תיקונים מקצועית במקום\nמוזמנים ליהנות משירות vip ומיחס אישי",
+    "slogan": "סלולר ותקשורת",
+    "description": null,
     "color": "",
     "address": "שדרות האמוראים 65",
     "hours": [
@@ -2645,11 +2645,11 @@
       }
     ],
     "email": "",
-    "phone": "052-715-7000",
+    "phone": "053-4181000",
     "phone2": "",
     "whatsapp": "",
     "website": "",
-    "showInHomePage": null,
+    "showInHomePage": true,
     "hideBusiness": null
   },
   {
@@ -2798,7 +2798,7 @@
     "phone2": "",
     "whatsapp": "",
     "website": "https://www.kidichic.co.il/",
-    "showInHomePage": true,
+    "showInHomePage": false,
     "hideBusiness": null
   },
   {
@@ -3428,7 +3428,7 @@
     "name": "leybedik",
     "value": "לייבעדיק",
     "hasLogo": true,
-    "hasImage": null,
+    "hasImage": true,
     "hasBigImage": null,
     "categories": [
       45
@@ -3443,7 +3443,7 @@
     "phone2": "",
     "whatsapp": "",
     "website": "http://leybedik.co.il/",
-    "showInHomePage": null,
+    "showInHomePage": true,
     "hideBusiness": null
   },
   {

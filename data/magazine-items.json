@@ -10,6 +10,11 @@
     "size": "Full"
   },
   {
+    "bId": 123,
+    "imageName": "pirsum.jpg",
+    "size": "Full"
+  },
+  {
     "bId": 33,
     "imageName": "pirsum.jpg",
     "size": "Full"
@@ -25,6 +30,11 @@
     "size": "Full"
   },
   {
+    "bId": 133,
+    "imageName": "pirsum.jpg",
+    "size": "Full"
+  },
+  {
     "bId": 132,
     "imageName": "pirsum.jpg",
     "size": "Full"
@@ -35,12 +45,17 @@
     "size": "Full"
   },
   {
-    "bId": 125,
+    "bId": 136,
     "imageName": "pirsum.jpg",
-    "size": "Full"
+    "size": "HalfHeight"
+  },
+   {
+    "bId": 124,
+    "imageName": "pirsum.jpg",
+    "size": "Double"
   },
   {
-    "bId": 104,
+    "bId": 125,
     "imageName": "pirsum.jpg",
     "size": "Full"
   },
@@ -87,11 +102,17 @@
     {
     "bId": 146,
     "imageName": "pirsum.jpg",
-    "size": "Full"
-  } ,
+    "size": "HalfHeight"
+  } , 
+    {
+    "bId": 111,
+    "imageName": "pirsum.jpg",
+    "size": "HalfHeight"
+  },
    {
     "bId": 104,
     "imageName": "pirsum.jpg",
     "size": "Full"
   }
+
 ]
