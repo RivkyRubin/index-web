@@ -4123,5 +4123,29 @@
     "website": "",
     "showInHomePage": null,
     "hideBusiness": true
+  }, 
+  {
+    "id": 152,
+    "name": "blushteinbituchim",
+    "value": "בלושטיין ביטוחים",
+    "hasLogo": true,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      48
+    ],
+    "slogan": "מכוסים על בטוח",
+    "description": "סוכנות ביטוח\nביטוחי רכב, דירה, עסקים ונסיעות לחו\"ל\n\nשעות מענה 08:30 - 16:00\n\nבברכה\nנוחי בלושטיין",
+    "color": "",
+    "address": "ריש לקיש 36",
+    "hours": null,
+    "email": "blushteinbituchim@gmail.com",
+    "phone": "0533-199396",
+    "phone2": null,
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
   }
+  
 ]
