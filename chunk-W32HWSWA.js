@@ -1,1 +1,0 @@
-import{Gb as s,Hb as a,_b as r,l as o,nb as n}from"./chunk-B3DRNSSI.js";var p=class t{destroyed$=new o;ngOnDestroy(){this.destroyed$.next(!0),this.destroyed$.complete()}static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-base"]],decls:2,vars:0,template:function(e,i){e&1&&(s(0,"p"),r(1,"base works!"),a())},encapsulation:2})};export{p as a};

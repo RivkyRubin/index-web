@@ -34,7 +34,7 @@
   { "id": 33, "value": "כושר", "name": "gym", "details": "מאמנת, מכון", "categoryType": "Service" },
   { "id": 34, "value": "רכב", "name": "car", "details": "השכרת", "categoryType": "Service" },
   { "id": 35, "value": "לבית", "name": "home", "size": 2, "usedCategory": true, "details": "טמבור", "categoryType": "Store" },
-  { "id": 36, "value": "אירועים", "name": "events", "size": 1, "details": "אולם, אולמות, פרחים ,פירות, קייטרינג", "categoryType": "Service" },
+  { "id": 36, "value": "אירועים", "name": "events", "size": 1, "details": "אולם, אולמות, תזמורת, קלידן, פרחים ,פירות, קייטרינג", "categoryType": "Service" },
   { "id": 37, "value": "קוסמטיקה וטיפוח", "name": "cosmetics", "details": "קרם, לייזר, הסרת שיער, אפילציה, גבות, שעווה", "categoryType": "Store" },
   { "id": 38, "value": "חד פעמי", "name": "disposable utensils", "categoryType": "Store" },
   { "id": 39, "value": "אופנת גברים", "name": "men", "size": 2, "usedCategory": false, "details": "בגדי גברים, חליפות", "categoryType": "Store" },
@@ -50,7 +50,8 @@
   { "id": 49, "value": "מרפאות ורופאים", "name": "health", "details":"קופת חולים, מכבי, מאוחדת, ","usedCategory": false, "categoryType": "Service" },
   { "id": 50, "value": "השכרה", "name": "rent", "details":"השכרת, השכרת רכב, השכרת שמלות","usedCategory": false, "categoryType": "Service" },
   { "id": 51, "value": "מכירה ביתית", "name": "homesale", "details":"מכירה מהבית, פוראוור","usedCategory": false, "categoryType": "Store" },
-  { "id": 52, "value": "עיצוב פנים ואדריכלות", "name": "homedesign", "details":"עיצוב לבית, מעצבת פנים","usedCategory": false, "categoryType": "Service" }
+  { "id": 52, "value": "עיצוב פנים ואדריכלות", "name": "homedesign", "details":"עיצוב לבית, מעצבת פנים","usedCategory": false, "categoryType": "Service" },
+  { "id": 53, "value": "תיקון מחשבים וסלולר", "name": "computermobilerepairs", "details":"מחשב, פלאפון, תיקון, תיקונים, טכנאי","usedCategory": false, "categoryType": "Service" }
 
 
 ]

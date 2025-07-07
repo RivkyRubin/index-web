@@ -1,0 +1,1 @@
+function t(e){return e&&typeof e=="object"&&typeof e.message=="string"&&typeof e.statusCode=="number"&&typeof e.responseCode=="number"}function o(e){return encodeURI(e)}function r(e){return e?e.charAt(0).toLowerCase()+e.slice(1):""}export{t as a,o as b,r as c};

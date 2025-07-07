@@ -4140,6 +4140,7 @@
     "hasImage": null,
     "hasBigImage": null,
     "categories": [
+      10,
       48
     ],
     "slogan": "מכוסים על בטוח",
@@ -4152,6 +4153,95 @@
     "phone2": null,
     "whatsapp": "",
     "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+   {
+    "id": 153,
+    "name": "etikinzburg",
+    "value": "אתי גינזבורג",
+    "hasLogo": false,
+    "hasImage": null,
+    "hasBigImage": null,
+    "categories": [
+      50
+    ],
+    "slogan": "בוטיק שמלות ערב",
+  "description": "השכרה ותפירה אישית של שמלות ערב<br><br><a href='https://moyshiginzburg.github.io/email-redirect/email-redirect.html' target='_blank'>לקבלת הקטלוג</a><br><a href='https://did.li/meeting-eti' target='_blank'>לקביעת פגישה למדידה</a>",
+    "color": "",
+    "address": "רב המנונה",
+    "hours": null,
+    "email": null,
+    "phone": "050-4164002",
+    "phone2": null,
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 154,
+    "name": "beautifulworld",
+    "value": "Beautiful World",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      48
+    ],
+    "slogan": "חדר הלבשה נייד",
+  "description": "אוהל מלתחה נייד",
+    "color": "",
+    "address": "רבי ברכיה",
+    "hours": null,
+    "email": "msh761678@gmail.com",
+    "phone": "03-3135706",
+    "phone2": null,
+    "whatsapp": "",
+    "website": "https://morning-shops.com/BEAUTIFUL-WORLD",
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+   {
+    "id": 155,
+    "name": "yehudatechnai",
+    "value": "יהודה טכנאי מחשבים",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      53
+    ],
+    "slogan": "טכנאי מחשבים ברמה",
+  "description": "💻 שירותי טכנאות מחשבים – מקצועיות ללא פשרות 💻<br>טכנאי מחשבים אמין ובעל ניסיון של שנים בתחום – כאן כדי לדאוג שהמחשב שלכם יעבוד בצורה חלקה ומהירה.<br><br>🛠️ השירותים שאני מציע:<br>• התקנת מערכות הפעלה ותוכנות בהתאמה אישית<br>• טיפול בתקלות חומרה ותוכנה<br>• ניקוי וירוסים ותוכנות זדוניות<br>• הרחבת זיכרון ושדרוג רכיבים<br>• האצת ביצועי המחשב<br>• שחזור מידע שנמחק או אבד<br>• איפוס ושחזור סיסמאות<br><br>⏱️ עבודה מהירה ואיכותית | 💬 שירות מקצועי ואדיב",    "color": "",
+    "address":null,
+    "hours": null,
+    "email": "yehudaone234@gmail.com",
+    "phone": "052-7151239",
+    "phone2": null,
+    "whatsapp": "",
+    "website":null,
+    "showInHomePage": null,
+    "hideBusiness": null
+  },
+   {
+    "id": 156,
+    "name": "yehudateven",
+    "value": "יהודה תבן",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      36
+    ],
+    "slogan": "קלידן לאירוע מושלם",
+  "description": "🎹 קלידן לאירוע מושלם 🎶<br>קלידן מקצועי ומנוסה לכל סוגי האירועים – עם מוזיקה חיה שמרימה את האווירה ומשאירה חותם.<br><br>ליווי מוזיקלי מלא ומרגש לאירועים:<br>✔️ בר מצווה | אירוסין | שבע ברכות<br>✔️ אירועים במוסדות, ישיבות, קהילות<br>✔️ וכל אירוע אחר שחשוב לכם להפוך לבלתי נשכח<br><br>💬 מוזיקה חיה. אווירה ייחודית. אירוע מושלם – בדיוק כמו שחלמת.",    "address":null,
+    "hours": null,
+    "email": "yehudaone234@gmail.com",
+    "phone": "052-7151239",
+    "phone2": null,
+    "whatsapp": null,
+    "website":null,
     "showInHomePage": null,
     "hideBusiness": null
   }

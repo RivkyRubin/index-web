@@ -1,1 +1,0 @@
-var e={production:!0,imagesUrl:"https://d2cvnvgbvna3zl.cloudfront.net/",filesUrl:"",googleMapsApiKey:"AIzaSyDlOADRy5InjeYNL0S1O1vQJfteARSgAc8",googleAuthKey:"513715504941-p0k4rir211l5rslf2c93gepfracesggr.apps.googleusercontent.com",apiKey:"https://api.rama-d.co.il/api"};export{e as a};
