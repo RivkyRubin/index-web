@@ -55,7 +55,7 @@
     "phone2": "",
     "whatsapp": "029920000",
     "website": "https://leaderkids.co.il",
-    "showInHomePage": true,
+    "showInHomePage": false,
     "hideBusiness": null
   },
   {
@@ -4243,6 +4243,44 @@
     "whatsapp": null,
     "website":null,
     "showInHomePage": null,
+    "hideBusiness": null
+  },
+  {
+    "id": 157,
+    "name": "david",
+    "value": "דוד המלכות שבקדושה",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      20
+    ],
+    "slogan": "תשמישי קדושה ושירותי רקמה",
+  "description": "מבחר תשמישי קדושה ממותגים מובילים לפרטיים וסיטונאים\nשירותי רקמה, פרוכות ומעילי ס\"ת",    "color": "",
+    "address": "רב חנן 2",
+    "hours": [
+      {
+        "days": "בוקר",
+        "from": "10:30",
+        "to": "13:30"
+      },
+      {
+        "days": "צהריים",
+        "from": "16:00",
+        "to": "21:00"
+      },
+      {
+        "days": "או בתיאום",
+        "from": "",
+        "to": ""
+      }
+    ],
+    "email": "",
+    "phone": "054-2000-135",
+    "phone2": "0533-149-122",
+    "whatsapp": "",
+    "website": "",
+    "showInHomePage": true,
     "hideBusiness": null
   }
   

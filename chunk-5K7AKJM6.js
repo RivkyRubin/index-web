@@ -1,1 +1,0 @@
-import{d as r}from"./chunk-TOJZX354.js";import{ba as t}from"./chunk-3MDHHBG3.js";var e=class o extends r{constructor(){super(),this.actionName.set("book")}static \u0275fac=function(i){return new(i||o)};static \u0275prov=t({token:o,factory:o.\u0275fac,providedIn:"root"})};export{e as a};
