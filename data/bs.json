@@ -4256,8 +4256,9 @@
       20
     ],
     "slogan": "תשמישי קדושה ושירותי רקמה",
-  "description": "מבחר תשמישי קדושה ממותגים מובילים לפרטיים וסיטונאים\nשירותי רקמה, פרוכות ומעילי ס\"ת",    "color": "",
+  "description": "מבחר תשמישי קדושה: ציציות מכל הסוגים, טליתות, עטרות, כיפות, נרתיקי טלית ותפילין - גם עור ופרווה בהזמנה.\nהזמנת תפילין, מזוזות, מגילות אסתר וספרי תורה.\nשירותי רקמה במקום - כולל פרוכות, מעילי ספרי תורה ועוד.",  
     "address": "רב חנן 2",
+        "addressComment":"קומה 2",
     "hours": [
       {
         "days": "בוקר",
@@ -4281,6 +4282,28 @@
     "whatsapp": "",
     "website": "",
     "showInHomePage": true,
+    "hideBusiness": null
+  },
+   {
+    "id": 158,
+    "name": "ostri",
+    "value": "תיווך אוסטרי",
+    "hasLogo": true,
+    "hasImage": true,
+    "hasBigImage": true,
+    "categories": [
+      54
+    ],
+    "slogan": "מקצועיות זה נכס",
+  "description": "משרד הנדל\"ן של בית שמש\nליווי מכירה וקניית נכס",   
+    "address":"שדרות האמוראים 72",
+    "hours": null,
+    "email": "office@ostri.co.il",
+    "phone": "050-3366-404",
+    "phone2": null,
+    "whatsapp": null,
+    "website":null,
+    "showInHomePage": null,
     "hideBusiness": null
   }
   

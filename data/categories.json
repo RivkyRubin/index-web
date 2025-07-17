@@ -51,7 +51,8 @@
   { "id": 50, "value": "השכרה", "name": "rent", "details":"השכרת, השכרת רכב, השכרת שמלות","usedCategory": false, "categoryType": "Service" },
   { "id": 51, "value": "מכירה ביתית", "name": "homesale", "details":"מכירה מהבית, פוראוור","usedCategory": false, "categoryType": "Store" },
   { "id": 52, "value": "עיצוב פנים ואדריכלות", "name": "homedesign", "details":"עיצוב לבית, מעצבת פנים","usedCategory": false, "categoryType": "Service" },
-  { "id": 53, "value": "תיקון מחשבים וסלולר", "name": "computermobilerepairs", "details":"מחשב, פלאפון, תיקון, תיקונים, טכנאי","usedCategory": false, "categoryType": "Service" }
+  { "id": 53, "value": "תיקון מחשבים וסלולר", "name": "computermobilerepairs", "details":"מחשב, פלאפון, תיקון, תיקונים, טכנאי","usedCategory": false, "categoryType": "Service" },
+  { "id": 54, "value": "נדלן", "name": "nadlan", "details":"דירות להשכרה, דירות למכירה, תיווך, השכרת","usedCategory": false, "categoryType": "Service" }
 
 
 ]
